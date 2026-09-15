@@ -1,0 +1,103 @@
+/* IP Studio 设计令牌 —— 参照 Overlay Studio 的暗色工作台风格 */
+:root {
+  color-scheme: dark;
+  --bg-app: #101014;
+  --bg-panel: #16161c;
+  --bg-canvas: #0a0a0d;
+  --bg-elev: #1d1d25;
+  --ink: #ececf1;
+  --ink-muted: #9a9aa6;
+  --ink-faint: #5f5f6b;
+  --hairline: #26262f;
+  --hairline-strong: #34343f;
+  --fill-subtle: #1a1a22;
+  --fill-hover: #23232e;
+  --accent: #ff4b1f;
+  --accent-soft: rgba(255, 75, 31, 0.14);
+  --on-accent: #fff;
+  --ok: #2fbf71;
+  --warn: #f3a712;
+  --danger: #e5484d;
+  --stale: #d29922;
+  --roll-a: #ff4b1f;
+  --roll-b: #5fa0fa;
+  --font-sans: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+  --font-mono: "SF Mono", "IBM Plex Mono", Menlo, Consolas, monospace;
+  --radius: 8px;
+  --radius-lg: 12px;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg-app);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+  color: var(--ink);
+  background: var(--bg-elev);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--radius);
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+button:hover { background: var(--fill-hover); }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+button.primary:hover { filter: brightness(1.08); }
+button.ghost { background: transparent; border-color: transparent; color: var(--ink-muted); }
+button.ghost:hover { color: var(--ink); background: var(--fill-hover); }
+button.small { padding: 2px 8px; font-size: 12px; border-radius: 6px; }
+button.danger { color: var(--danger); border-color: var(--danger); background: transparent; }
+button.danger:hover { background: rgba(229, 72, 77, 0.12); }
+
+input, select, textarea {
+  font: inherit;
+  color: var(--ink);
+  background: var(--fill-subtle);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--radius);
+  padding: 5px 8px;
+  outline: none;
+  min-width: 0;
+}
+input:focus, select:focus, textarea:focus { border-color: var(--accent); }
+textarea { resize: vertical; font-family: var(--font-mono); font-size: 12px; }
+select { cursor: pointer; }
+
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-thumb { background: var(--hairline-strong); border-radius: 5px; border: 2px solid var(--bg-app); }
+::-webkit-scrollbar-track { background: transparent; }
+
+.mono { font-family: var(--font-mono); }
+.muted { color: var(--ink-muted); }
+.faint { color: var(--ink-faint); }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 11px; padding: 1px 7px; border-radius: 999px;
+  background: var(--fill-subtle); border: 1px solid var(--hairline-strong); color: var(--ink-muted);
+}
+.chip.ok { color: var(--ok); border-color: rgba(47, 191, 113, 0.4); background: rgba(47, 191, 113, 0.08); }
+.chip.warn { color: var(--warn); border-color: rgba(243, 167, 18, 0.4); background: rgba(243, 167, 18, 0.08); }
+.chip.err { color: var(--danger); border-color: rgba(229, 72, 77, 0.45); background: rgba(229, 72, 77, 0.1); }
+.chip.acc { color: var(--accent); border-color: rgba(255, 75, 31, 0.45); background: var(--accent-soft); }
+
+.spin {
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid var(--hairline-strong); border-top-color: var(--accent);
+  animation: spin 0.8s linear infinite; display: inline-block; vertical-align: -2px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }

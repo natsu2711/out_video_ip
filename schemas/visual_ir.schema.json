@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "visual_ir",
+  "description": "Visual IR：观众应该理解什么信息结构。禁止任何视觉实现字段（card/layout/font/color/animation/camera/position）。",
+  "type": "object",
+  "required": ["beat", "relation", "rhythm"],
+  "properties": {
+    "beat": {
+      "type": "string",
+      "enum": ["hook", "point", "step", "case", "contrast", "quote", "cta"]
+    },
+    "relation": {
+      "type": "string",
+      "enum": ["single", "sequence", "contrast", "hierarchy", "trend"],
+      "description": "信息结构：单点/步骤/对比/并列/趋势"
+    },
+    "rhythm": {
+      "type": "string",
+      "enum": ["open", "build", "turn", "close"],
+      "description": "段内节奏位置：起始冲击/渐进/转折强化/收束"
+    },
+    "abstraction": {
+      "type": "string",
+      "enum": ["concrete", "abstract"],
+      "description": "concrete→实物场景优先；abstract→版面图形优先"
+    },
+    "emphasis": {
+      "type": "object",
+      "properties": {
+        "anchor_words": {
+          "type": "array",
+          "items": {"type": "string"},
+          "maxItems": 2,
+          "description": "锚词必须是 timing.words 中存在的字串"
+        },
+        "anchor_role": {"type": "string"}
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "人物/物体/地点（spatial_relation 的节点）"
+    },
+    "spatial_relation": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "A left_of B / A above B / A foreground_of B / A overlaps B"
+    },
+    "temporal_relation": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "A before B / A causes B / A→B→C"
+    },
+    "information_hierarchy": {
+      "type": "object",
+      "properties": {
+        "primary": {"type": "array", "items": {"type": "string"}},
+        "secondary": {"type": "array", "items": {"type": "string"}},
+        "supporting": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "additionalProperties": false
+}

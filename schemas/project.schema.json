@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "project",
+  "type": "object",
+  "required": ["id", "title", "pipeline_version", "canvas", "language", "voice"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{4}-[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "pipeline_version": { "type": "string" },
+    "canvas": {
+      "type": "object",
+      "required": ["width", "height", "fps", "ratio"],
+      "properties": {
+        "width": { "type": "integer", "enum": [1080, 1920] },
+        "height": { "type": "integer", "enum": [1920, 1080] },
+        "fps": { "type": "integer", "minimum": 24, "maximum": 60 },
+        "ratio": { "type": "string", "enum": ["9:16", "16:9"] }
+      }
+    },
+    "language": { "type": "string", "enum": ["zh", "en", "mix"] },
+    "voice": {
+      "type": "object",
+      "required": ["provider", "ref_audio", "speed"],
+      "properties": {
+        "provider": { "type": "string", "enum": ["index-tts"] },
+        "ref_audio": { "type": "string" },
+        "speed": { "type": "number", "minimum": 0.5, "maximum": 2.0 }
+      }
+    },
+    "style": {
+      "type": "object",
+      "required": ["theme"],
+      "properties": {
+        "theme": {
+          "type": "string",
+          "enum": [
+            "ink-classic",
+            "indigo-porcelain",
+            "forest-ink",
+            "kraft-paper",
+            "dune",
+            "midnight-ink",
+            "ikb",
+            "lemon",
+            "lemon-green",
+            "safety-orange"
+          ],
+          "description": "主题色预设（来自 guizang-social-card-skill），不允许自定义 hex"
+        },
+        "a_roll": {
+          "type": "object",
+          "properties": {
+            "engine": { "type": "string", "enum": ["ip-image"] },
+            "style_lock": { "type": "string" },
+            "reference_images": {
+              "type": "object",
+              "properties": {
+                "three_view": { "type": "string" },
+                "brush_detail": { "type": "string" },
+                "scene": { "type": "string" }
+              }
+            },
+            "view_angles": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "b_roll": {
+          "type": "object",
+          "properties": {
+            "palette": {
+              "type": "object",
+              "properties": {
+                "bg": { "type": "string" },
+                "anchor": { "type": "string" },
+                "text": { "type": "string" }
+              }
+            },
+            "font_stack": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "bgm": {
+      "type": "object",
+      "properties": {
+        "mood": { "type": "string" },
+        "duck_to_db": { "type": "number" },
+        "file": { "type": ["string", "null"] }
+      }
+    },
+    "i2v": {
+      "type": "object",
+      "properties": { "enabled": { "type": "boolean" } },
+      "default": { "enabled": false }
+    }
+  }
+}

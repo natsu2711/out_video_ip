@@ -1,0 +1,8105 @@
+{
+ "alt-block-lines": {
+  "slug": "alt-block-lines",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "ROWS": true
+  },
+  "arities": {
+   "ROWS": 3
+  },
+  "component": "AltBlockLines",
+  "durationInFrames": 91,
+  "sourceFile": "alt-block-lines.tsx",
+  "desc": "双色块对句 —— 自包含 Remotion 源码（与 demos/alt-blo",
+  "slotDefaults": {
+   "ROWS": [
+    {
+     "cls": "a",
+     "text": "先做减法"
+    },
+    {
+     "cls": "b",
+     "text": "再做加法"
+    }
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.7,
+   "max": 3.3
+  }
+ },
+ "bar-chart-growth": {
+  "slug": "bar-chart-growth",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "BarChartGrowth",
+  "durationInFrames": 110,
+  "jsxTexts": [
+   "数据说话",
+   "增长 42%"
+  ],
+  "sourceFile": "bar-chart-growth.tsx",
+  "desc": "柱状增长 —— 自包含 Remotion 源码（与 demos/bar-char（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "数据说话",
+    "增长 42%"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "behind-text-title": {
+  "slug": "behind-text-title",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "BehindTextTitle",
+  "durationInFrames": 95,
+  "jsxTexts": [
+   "十年之约"
+  ],
+  "sourceFile": "behind-text-title.tsx",
+  "desc": "人后大字视差 —— 自包含 Remotion 源码（与 demos/behind（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "十年之约"
+   ]
+  },
+  "category": "opening",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.5
+  }
+ },
+ "black-slam-transition": {
+  "slug": "black-slam-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "BlackSlamTransition",
+  "durationInFrames": 82,
+  "jsxTexts": [
+   "黑震切",
+   "满亮直切"
+  ],
+  "sourceFile": "black-slam-transition.tsx",
+  "desc": "黑震切转场 —— 自包含 Remotion 源码（与 demos/black-s（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "黑震切",
+    "满亮直切"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 2.5,
+   "max": 3.0
+  }
+ },
+ "callout-line-label": {
+  "slug": "callout-line-label",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "CalloutLineLabel",
+  "durationInFrames": 148,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "callout-line-label.tsx",
+  "desc": "标注引出线 —— 自包含 Remotion 源码（与 demos/callout",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.4,
+   "max": 5.4
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "color": "#d8383a",
+    "from": "left"
+   }
+  }
+ },
+ "caret-wipe-transition": {
+  "slug": "caret-wipe-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "CaretWipeTransition",
+  "durationInFrames": 103,
+  "jsxTexts": [
+   "被退格吃掉",
+   "刚被打出来"
+  ],
+  "sourceFile": "caret-wipe-transition.tsx",
+  "desc": "光标擦除转场 —— 自包含 Remotion 源码（与 demos/caret-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "被退格吃掉",
+    "刚被打出来"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.1,
+   "max": 3.8
+  }
+ },
+ "chapter-progress-list": {
+  "slug": "chapter-progress-list",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "ROWS": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1,
+   "ROWS": 5
+  },
+  "component": "ChapterProgressList",
+  "durationInFrames": 111,
+  "jsxTexts": [
+   "0.2 读作四个独立动效，"
+  ],
+  "sourceFile": "chapter-progress-list.tsx",
+  "desc": "章节进度 —— 自包含 Remotion 源码（与 demos/chapter-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "0.2 读作四个独立动效，"
+   ],
+   "ROWS": [
+    {
+     "no": "01",
+     "name": "先说结论",
+     "current": false
+    },
+    {
+     "no": "02",
+     "name": "钱是怎么被拿走的",
+     "current": true
+    },
+    {
+     "no": "03",
+     "name": "三个最常见的坑",
+     "current": false
+    },
+    {
+     "no": "04",
+     "name": "你今天能做什么",
+     "current": false
+    }
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "data",
+   "timeline"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.1
+  }
+ },
+ "chapter-title-card": {
+  "slug": "chapter-title-card",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "ChapterTitleCard",
+  "durationInFrames": 201,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "chapter-title-card.tsx",
+  "desc": "章节标题卡 —— 自包含 Remotion 源码（与 demos/chapter",
+  "visual_intent": [
+   "timeline"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 6.0,
+   "max": 7.4
+  },
+  "slotDefaults": {}
+ },
+ "chart-grow": {
+  "slug": "chart-grow",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "ChartGrow",
+  "durationInFrames": 68,
+  "jsxTexts": [
+   "年营收（亿元）"
+  ],
+  "sourceFile": "chart-grow.tsx",
+  "desc": "图表生长 —— 自包含 Remotion 源码（与 demos/chart-gr（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "年营收（亿元）"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.0,
+   "max": 2.5
+  }
+ },
+ "chat-gpt": {
+  "slug": "chat-gpt",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 4
+  },
+  "component": "ChatGpt",
+  "durationInFrames": null,
+  "jsxTexts": [
+   "今天想聊点什么？",
+   "生成图片",
+   "写作润色",
+   "联网查证"
+  ],
+  "sourceFile": "chat-gpt.tsx",
+  "desc": "ChatGPT 对话框自演 —— 自包含 Remotion 源码（与 demos（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "今天想聊点什么？",
+    "生成图片",
+    "写作润色",
+    "联网查证"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "chat-message-flow": {
+  "slug": "chat-message-flow",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 4
+  },
+  "component": "ChatMessageFlow",
+  "durationInFrames": null,
+  "jsxTexts": [
+   "林",
+   "林工 · 设计评审",
+   "在线",
+   "林"
+  ],
+  "sourceFile": "chat-message-flow.tsx",
+  "desc": "聊天记录自演 —— 自包含 Remotion 源码（与 demos/chat-m（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "林",
+    "林工 · 设计评审",
+    "在线",
+    "林"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui",
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "chevron-lower-third": {
+  "slug": "chevron-lower-third",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "ChevronLowerThird",
+  "durationInFrames": 108,
+  "jsxTexts": [
+   "供应链咨询顾问 · 12 年"
+  ],
+  "sourceFile": "chevron-lower-third.tsx",
+  "desc": "动态人名条 —— 自包含 Remotion 源码（与 demos/chevron（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "供应链咨询顾问 · 12 年"
+   ]
+  },
+  "category": "effects",
+  "category3": "visual",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.2,
+   "max": 4.0
+  }
+ },
+ "claude-code": {
+  "slug": "claude-code",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 5
+  },
+  "component": "ClaudeCode",
+  "durationInFrames": null,
+  "jsxTexts": [
+   "欢迎回来，阿维！",
+   "/agents 创建子智能体",
+   "/security-review 调用审查智能体",
+   "ctrl+b 把命令挂到后台",
+   "… /help 查看更多"
+  ],
+  "sourceFile": "claude-code.tsx",
+  "desc": "Claude Code 终端自演 —— 自包含 Remotion 源码（与 de（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "欢迎回来，阿维！",
+    "/agents 创建子智能体",
+    "/security-review 调用审查智能体",
+    "ctrl+b 把命令挂到后台"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "color-slam-beat-card": {
+  "slug": "color-slam-beat-card",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 5
+  },
+  "component": "ColorSlamBeatCard",
+  "durationInFrames": 215,
+  "jsxTexts": [
+   "四周内的交付量变化",
+   "不是不会用",
+   "是没想清楚",
+   "先定输出",
+   "再挑工具"
+  ],
+  "sourceFile": "color-slam-beat-card.tsx",
+  "desc": "纯色硬切节拍卡 —— 自包含 Remotion 源码（与 demos/color（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "四周内的交付量变化",
+    "不是不会用",
+    "是没想清楚",
+    "先定输出"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 6.5,
+   "max": 7.9
+  }
+ },
+ "converging-arrows": {
+  "slug": "converging-arrows",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 4
+  },
+  "component": "ConvergingArrows",
+  "durationInFrames": 89,
+  "jsxTexts": [
+   "今天只要你",
+   "记住",
+   "这 3 点",
+   "就够了"
+  ],
+  "sourceFile": "converging-arrows.tsx",
+  "desc": "双箭头聚焦 —— 自包含 Remotion 源码（与 demos/converg（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "今天只要你",
+    "记住",
+    "这 3 点",
+    "就够了"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data",
+   "relationship"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.7,
+   "max": 3.3
+  }
+ },
+ "corner-bracket-frame": {
+  "slug": "corner-bracket-frame",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "CornerBracketFrame",
+  "durationInFrames": 94,
+  "jsxTexts": [
+   "一条思路",
+   "讲清楚一件事"
+  ],
+  "sourceFile": "corner-bracket-frame.tsx",
+  "desc": "对角角框 —— 自包含 Remotion 源码（与 demos/corner-b（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "一条思路",
+    "讲清楚一件事"
+   ]
+  },
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis",
+   "quote"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.8,
+   "max": 3.4
+  }
+ },
+ "count-badge-title": {
+  "slug": "count-badge-title",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "CountBadgeTitle",
+  "durationInFrames": 112,
+  "jsxTexts": [
+   "个方法",
+   "解决问题"
+  ],
+  "sourceFile": "count-badge-title.tsx",
+  "desc": "数字重音标题 —— 自包含 Remotion 源码（与 demos/count-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "个方法",
+    "解决问题"
+   ]
+  },
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.1
+  }
+ },
+ "cursor-actor-demo": {
+  "slug": "cursor-actor-demo",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 4
+  },
+  "component": "CursorActorDemo",
+  "durationInFrames": 135,
+  "jsxTexts": [
+   "生成设置",
+   "输出偏好",
+   "描述你想要的画面，或拖一张参考图进来…",
+   "素材库"
+  ],
+  "sourceFile": "cursor-actor-demo.tsx",
+  "desc": "光标演员演示 —— 自包含 Remotion 源码（与 demos/cursor（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "生成设置",
+    "输出偏好",
+    "描述你想要的画面，或拖一张参考图进来…",
+    "素材库"
+   ]
+  },
+  "category": "interaction",
+  "category3": "visual",
+  "visual_intent": [
+   "ui",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.0,
+   "max": 5.0
+  }
+ },
+ "cursor-locked-zoom": {
+  "slug": "cursor-locked-zoom",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "CursorLockedZoom",
+  "durationInFrames": 192,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "cursor-locked-zoom.tsx",
+  "desc": "光标锁定跟拍 —— 自包含 Remotion 源码（与 demos/cursor",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.8,
+   "max": 7.0
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "cmd": "ffmpeg -i raw.mov -vf scale=1080:-2 -crf 18 out.mp4"
+   }
+  }
+ },
+ "danmu-bubble-praise": {
+  "slug": "danmu-bubble-praise",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "DanmuBubblePraise",
+  "durationInFrames": 131,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "danmu-bubble-praise.tsx",
+  "desc": "弹幕气泡 —— 自包含 Remotion 源码（与 demos/danmu-bu",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.9,
+   "max": 4.8
+  },
+  "slotDefaults": {}
+ },
+ "douyin-follow-card": {
+  "slug": "douyin-follow-card",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 5
+  },
+  "component": "DouyinFollowCard",
+  "durationInFrames": null,
+  "jsxTexts": [
+   "获赞",
+   "关注",
+   "粉丝",
+   "＋关注",
+   "发私信"
+  ],
+  "sourceFile": "douyin-follow-card.tsx",
+  "desc": "抖音主页关注卡 —— 自包含 Remotion 源码（与 demos/douyi（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    " 获赞",
+    " 关注",
+    " 粉丝",
+    "＋关注"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "evidence-scroll-tour": {
+  "slug": "evidence-scroll-tour",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 12
+  },
+  "component": "EvidenceScrollTour",
+  "durationInFrames": 320,
+  "jsxTexts": [
+   "个人借款服务协议（2024 修订版）.pdf",
+   "个人借款服务协议",
+   "合同编号：2024-XJD-1107 · 甲方：某消费金融有限公司",
+   "第一条　借款金额与期限",
+   "第二条　利息与综合费用",
+   "综合年化费率以签约页面实际展示为准",
+   "，并可能包含服务费。",
+   "第三条　逾期与违约责任",
+   "逾期费率按日 1%，且不设累计上限",
+   "，自逾期之日起计收。",
+   "第四条　个人信息授权",
+   "第五条　争议解决"
+  ],
+  "sourceFile": "evidence-scroll-tour.tsx",
+  "desc": "证据长页慢滚 —— 自包含 Remotion 源码（与 demos/eviden（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "个人借款服务协议（2024 修订版）.pdf",
+    "个人借款服务协议",
+    "合同编号：2024-XJD-1107 · 甲方：某消费金融有限公司",
+    "第一条　借款金额与期限"
+   ]
+  },
+  "category": "interaction",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 9.6,
+   "max": 11.7
+  }
+ },
+ "focus-dim-spotlight": {
+  "slug": "focus-dim-spotlight",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TARGETS": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 12
+  },
+  "component": "FocusDimSpotlight",
+  "durationInFrames": 275,
+  "jsxTexts": [
+   "2024 财年 · 分部门经营数据",
+   "业务板块",
+   "营收",
+   "同比",
+   "毛利率",
+   "云与 AI",
+   "智能硬件",
+   "广告营销",
+   "金融科技",
+   "数据来源：公司 2024 财年年报 · 单位：亿元人民币",
+   "通道③　发光描边 + 其余压暗",
+   "通道①　整屏压暗（无描边）"
+  ],
+  "sourceFile": "focus-dim-spotlight.tsx",
+  "desc": "聚焦压暗切换 —— 自包含 Remotion 源码（与 demos/focus-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "2024 财年 · 分部门经营数据",
+    "业务板块",
+    "营收",
+    "同比"
+   ]
+  },
+  "category": "interaction",
+  "category3": "visual",
+  "visual_intent": [
+   "ui",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 8.2,
+   "max": 10.1
+  }
+ },
+ "glass-code-walk": {
+  "slug": "glass-code-walk",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "GlassCodeWalk",
+  "durationInFrames": null,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "glass-code-walk.tsx",
+  "desc": "玻璃代码走读 —— 自包含 Remotion 源码（与 demos/glass-",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  },
+  "slotDefaults": {}
+ },
+ "gooey-morph": {
+  "slug": "gooey-morph",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "GooeyMorph",
+  "durationInFrames": 97,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "gooey-morph.tsx",
+  "desc": "图块拼入 —— 自包含 Remotion 源码（与 demos/gooey-mo",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.6
+  },
+  "slotDefaults": {}
+ },
+ "hand-drawn-ellipse": {
+  "slug": "hand-drawn-ellipse",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "HandDrawnEllipse",
+  "durationInFrames": 102,
+  "jsxTexts": [
+   "要求可以再高一点，但对自己",
+   "更松弛一点"
+  ],
+  "sourceFile": "hand-drawn-ellipse.tsx",
+  "desc": "手绘圈重点 —— 自包含 Remotion 源码（与 demos/hand-dr（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "要求可以再高一点，但对自己",
+    "更松弛一点"
+   ]
+  },
+  "category": "effects",
+  "category3": "visual",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.1,
+   "max": 3.7
+  }
+ },
+ "highlighter-sweep": {
+  "slug": "highlighter-sweep",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 5
+  },
+  "component": "HighlighterSweep",
+  "durationInFrames": 60,
+  "jsxTexts": [
+   "《2024 年度宏观经济报告》 · 第 42 页",
+   "过去三年，居民部门的储蓄率持续攀升，",
+   "消费意愿始终徘徊在低位。报告指出，",
+   "这一判断与多家机构的调研结论一致，",
+   "政策端的回应也在陆续落地。"
+  ],
+  "sourceFile": "highlighter-sweep.tsx",
+  "desc": "荧光笔高亮扫过 —— 自包含 Remotion 源码（与 demos/highl（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "《2024 年度宏观经济报告》 · 第 42 页",
+    "过去三年，居民部门的储蓄率持续攀升，",
+    "消费意愿始终徘徊在低位。报告指出，",
+    "这一判断与多家机构的调研结论一致，"
+   ]
+  },
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis",
+   "quote"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.8,
+   "max": 2.2
+  }
+ },
+ "host-shrink-to-chip": {
+  "slug": "host-shrink-to-chip",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "HostShrinkToChip",
+  "durationInFrames": 114,
+  "jsxTexts": [
+   "韩国综合股价指数 · 年末收盘",
+   "2020—2025，五年翻了将近一倍"
+  ],
+  "sourceFile": "host-shrink-to-chip.tsx",
+  "desc": "人物缩位让台 —— 自包含 Remotion 源码（与 demos/host-s（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "韩国综合股价指数 · 年末收盘",
+    "2020—2025，五年翻了将近一倍"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.2
+  }
+ },
+ "impact-open-title": {
+  "slug": "impact-open-title",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "ImpactOpenTitle",
+  "durationInFrames": 97,
+  "jsxTexts": [
+   "接下来这三分钟，只讲清楚一件事"
+  ],
+  "sourceFile": "impact-open-title.tsx",
+  "desc": "冲击开场 —— 自包含 Remotion 源码（与 demos/impact-o（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "接下来这三分钟，只讲清楚一件事"
+   ]
+  },
+  "category": "opening",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.6
+  }
+ },
+ "info-term-card": {
+  "slug": "info-term-card",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "InfoTermCard",
+  "durationInFrames": 197,
+  "jsxTexts": [
+   "量化宽松"
+  ],
+  "sourceFile": "info-term-card.tsx",
+  "desc": "名词解释悬浮卡 —— 自包含 Remotion 源码（与 demos/info-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "量化宽松"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.9,
+   "max": 7.2
+  }
+ },
+ "ink-underline": {
+  "slug": "ink-underline",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 4
+  },
+  "component": "InkUnderline",
+  "durationInFrames": 109,
+  "jsxTexts": [
+   "很多人以为这轮涨价是因为",
+   "成本上涨",
+   "其实真正的变量是",
+   "渠道结构"
+  ],
+  "sourceFile": "ink-underline.tsx",
+  "desc": "墨迹下划线 —— 自包含 Remotion 源码（与 demos/ink-und（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "很多人以为这轮涨价是因为",
+    "成本上涨",
+    "其实真正的变量是",
+    "渠道结构"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data",
+   "quote"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "keyword-pop-highlight": {
+  "slug": "keyword-pop-highlight",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "KeywordPopHighlight",
+  "durationInFrames": 42,
+  "jsxTexts": [
+   "1.9 读作搞笑向，",
+   "300个亿"
+  ],
+  "sourceFile": "keyword-pop-highlight.tsx",
+  "desc": "关键词弹出强调 —— 自包含 Remotion 源码（与 demos/keywo（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "1.9 读作搞笑向，",
+    "300个亿"
+   ]
+  },
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis",
+   "quote"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.3,
+   "max": 1.5
+  }
+ },
+ "line-by-line-slide": {
+  "slug": "line-by-line-slide",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "LineByLineSlide",
+  "durationInFrames": 120,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "line-by-line-slide.tsx",
+  "desc": "逐行滑入 —— 自包含 Remotion 源码（与 demos/line-by-",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  },
+  "slotDefaults": {}
+ },
+ "line-chart-story-draw": {
+  "slug": "line-chart-story-draw",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 5
+  },
+  "component": "LineChartStoryDraw",
+  "durationInFrames": 156,
+  "jsxTexts": [
+   "指数点位 · 五年推演",
+   "历史已发生 ｜ 右侧为假设",
+   "今年",
+   "+3 年",
+   "+5 年"
+  ],
+  "sourceFile": "line-chart-story-draw.tsx",
+  "desc": "折线分段推演 —— 自包含 Remotion 源码（与 demos/line-c（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "指数点位 · 五年推演",
+    "历史已发生 ｜ 右侧为假设",
+    "今年",
+    "+3 年"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.7,
+   "max": 5.7
+  }
+ },
+ "logo-enter": {
+  "slug": "logo-enter",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "LogoEnter",
+  "durationInFrames": 90,
+  "jsxTexts": [
+   "知远研究所",
+   "每周一期 · 独立商业观察"
+  ],
+  "sourceFile": "logo-enter.tsx",
+  "desc": "Logo 登场 —— 自包含 Remotion 源码（与 demos/logo-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "知远研究所",
+    "每周一期 · 独立商业观察"
+   ]
+  },
+  "category": "opening",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.7,
+   "max": 3.3
+  }
+ },
+ "long-take-world": {
+  "slug": "long-take-world",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 6
+  },
+  "component": "LongTakeWorld",
+  "durationInFrames": 213,
+  "jsxTexts": [
+   "起点 ·",
+   "钩子",
+   "站 B ·",
+   "数据",
+   "站 C ·",
+   "结论"
+  ],
+  "sourceFile": "long-take-world.tsx",
+  "desc": "长镜头世界画布 —— 自包含 Remotion 源码（与 demos/long-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "起点 · ",
+    "钩子",
+    "站 B · ",
+    "数据"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 6.4,
+   "max": 7.8
+  }
+ },
+ "lower-third-nameplate": {
+  "slug": "lower-third-nameplate",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "LowerThirdNameplate",
+  "durationInFrames": 107,
+  "jsxTexts": [
+   "王砚秋",
+   "半导体行业分析师 · 从业 14 年"
+  ],
+  "sourceFile": "lower-third-nameplate.tsx",
+  "desc": "人名条展示牌 —— 自包含 Remotion 源码（与 demos/lower-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "王砚秋",
+    "半导体行业分析师 · 从业 14 年"
+   ]
+  },
+  "category": "effects",
+  "category3": "visual",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.2,
+   "max": 3.9
+  }
+ },
+ "magnifier-detail": {
+  "slug": "magnifier-detail",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 8
+  },
+  "component": "MagnifierDetail",
+  "durationInFrames": 101,
+  "jsxTexts": [
+   "星舟 Pro 14 · 实测数据",
+   "本站实验室 · 同一负载连续三轮取均值",
+   "性能释放",
+   "45W 持续",
+   "屏幕亮度",
+   "续航测试",
+   "4 小时 32 分",
+   "整机重量"
+  ],
+  "sourceFile": "magnifier-detail.tsx",
+  "desc": "局部放大镜 —— 自包含 Remotion 源码（与 demos/magnifi（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "星舟 Pro 14 · 实测数据",
+    "本站实验室 · 同一负载连续三轮取均值",
+    "性能释放",
+    "45W 持续"
+   ]
+  },
+  "category": "interaction",
+  "category3": "visual",
+  "visual_intent": [
+   "ui",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.0,
+   "max": 3.7
+  }
+ },
+ "map-route-pin": {
+  "slug": "map-route-pin",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "MapRoutePin",
+  "durationInFrames": 155,
+  "jsxTexts": [
+   "1.5 拖节奏，"
+  ],
+  "sourceFile": "map-route-pin.tsx",
+  "desc": "地图路线图钉 —— 自包含 Remotion 源码（与 demos/map-ro（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "1.5 拖节奏，"
+   ]
+  },
+  "category": "interaction",
+  "category3": "visual",
+  "visual_intent": [
+   "ui",
+   "scene",
+   "relationship"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.7,
+   "max": 5.7
+  }
+ },
+ "media-pop-in": {
+  "slug": "media-pop-in",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "MediaPopIn",
+  "durationInFrames": 92,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "media-pop-in.tsx",
+  "desc": "素材弹入堆叠 —— 自包含 Remotion 源码（与 demos/media-",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.8,
+   "max": 3.4
+  },
+  "slotDefaults": {}
+ },
+ "metric-with-sparkline": {
+  "slug": "metric-with-sparkline",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 5
+  },
+  "component": "MetricWithSparkline",
+  "durationInFrames": 114,
+  "jsxTexts": [
+   "本周剪辑效率",
+   "周一",
+   "周二",
+   "周三",
+   "周四"
+  ],
+  "sourceFile": "metric-with-sparkline.tsx",
+  "desc": "数字带趋势 —— 自包含 Remotion 源码（与 demos/metric-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "本周剪辑效率",
+    "周一",
+    "周二",
+    "周三"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text",
+   "number"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.2
+  }
+ },
+ "motion-blur-slam-in": {
+  "slug": "motion-blur-slam-in",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "MotionBlurSlamIn",
+  "durationInFrames": 45,
+  "jsxTexts": [
+   "25 糊成云雾，"
+  ],
+  "sourceFile": "motion-blur-slam-in.tsx",
+  "desc": "模糊甩入急停 —— 自包含 Remotion 源码（与 demos/motion（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "25 糊成云雾，"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 1.4,
+   "max": 1.7
+  }
+ },
+ "news-card-desk": {
+  "slug": "news-card-desk",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 7
+  },
+  "component": "NewsCardDesk",
+  "durationInFrames": 321,
+  "jsxTexts": [
+   "财经日报",
+   "2026-08-17 · A1 版",
+   "央行宣布降准 0.5 个百分点，",
+   "释放长期资金",
+   "约 1 万亿元",
+   "市场快讯",
+   "股债汇三市齐动，机构：宽松周期确认"
+  ],
+  "sourceFile": "news-card-desk.tsx",
+  "desc": "新闻卡片划重点 —— 自包含 Remotion 源码（与 demos/news-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "财经日报",
+    "2026-08-17 · A1 版",
+    "央行宣布降准 0.5 个百分点，",
+    "释放长期资金"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 9.6,
+   "max": 11.8
+  }
+ },
+ "number-counter": {
+  "slug": "number-counter",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 3
+  },
+  "component": "NumberCounter",
+  "durationInFrames": 86,
+  "jsxTexts": [
+   "2024 全年营销费用",
+   "平均每天烧掉（万元）",
+   "万 / 天"
+  ],
+  "sourceFile": "number-counter.tsx",
+  "desc": "数字滚动计数 —— 自包含 Remotion 源码（与 demos/number（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "2024 全年营销费用",
+    "平均每天烧掉（万元）",
+    "万 / 天"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text",
+   "number"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.6,
+   "max": 3.2
+  }
+ },
+ "number-slab-pop": {
+  "slug": "number-slab-pop",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "NumberSlabPop",
+  "durationInFrames": 101,
+  "jsxTexts": [
+   "较去年增长"
+  ],
+  "sourceFile": "number-slab-pop.tsx",
+  "desc": "数字弹出 —— 自包含 Remotion 源码（与 demos/number-s（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "较去年增长"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data",
+   "emphasis"
+  ],
+  "content_types": [
+   "text",
+   "number"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.0,
+   "max": 3.7
+  }
+ },
+ "numbered-step-stack": {
+  "slug": "numbered-step-stack",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "STEPS": true
+  },
+  "arities": {
+   "STEPS": 5
+  },
+  "component": "NumberedStepStack",
+  "durationInFrames": 107,
+  "sourceFile": "numbered-step-stack.tsx",
+  "desc": "编号步骤堆入 —— 自包含 Remotion 源码（与 demos/number",
+  "slotDefaults": {
+   "STEPS": [
+    {
+     "no": "01",
+     "txt": "把手机放到另一个房间"
+    },
+    {
+     "no": "02",
+     "txt": "只写今天要交的那一件"
+    },
+    {
+     "no": "03",
+     "txt": "计时 25 分钟不许起身"
+    },
+    {
+     "no": "04",
+     "txt": "做完立刻记一行结果"
+    }
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data",
+   "process",
+   "list"
+  ],
+  "content_types": [
+   "number"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.2,
+   "max": 3.9
+  }
+ },
+ "orbit-drift": {
+  "slug": "orbit-drift",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 7
+  },
+  "component": "OrbitDrift",
+  "durationInFrames": 180,
+  "jsxTexts": [
+   "工作台",
+   "资源",
+   "渲染队列",
+   "12 个任务",
+   "1920×1080 · 95s · 三重验收全绿",
+   "渲染耗时",
+   "静止段"
+  ],
+  "sourceFile": "orbit-drift.tsx",
+  "desc": "环绕微漂 —— 自包含 Remotion 源码（与 demos/orbit-dr（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "工作台",
+    "资源",
+    "渲染队列",
+    "12 个任务"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "low",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "outline-box-title": {
+  "slug": "outline-box-title",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "OutlineBoxTitle",
+  "durationInFrames": 103,
+  "jsxTexts": [
+   "核心观点",
+   "在这里"
+  ],
+  "sourceFile": "outline-box-title.tsx",
+  "desc": "描边框标题 —— 自包含 Remotion 源码（与 demos/outline（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "核心观点",
+    "在这里"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.1,
+   "max": 3.8
+  }
+ },
+ "overexpose-flip-transition": {
+  "slug": "overexpose-flip-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "OverexposeFlipTransition",
+  "durationInFrames": 93,
+  "jsxTexts": [
+   "过曝翻页",
+   "从亮心拉出"
+  ],
+  "sourceFile": "overexpose-flip-transition.tsx",
+  "desc": "过曝翻页转场 —— 自包含 Remotion 源码（与 demos/overex（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "过曝翻页",
+    "从亮心拉出"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.8,
+   "max": 3.4
+  }
+ },
+ "particle-weld-transition": {
+  "slug": "particle-weld-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "ParticleWeldTransition",
+  "durationInFrames": 98,
+  "jsxTexts": [
+   "粒子溶接",
+   "同批粒子成形"
+  ],
+  "sourceFile": "particle-weld-transition.tsx",
+  "desc": "粒子溶接转场 —— 自包含 Remotion 源码（与 demos/partic（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "粒子溶接",
+    "同批粒子成形"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.6
+  }
+ },
+ "pencil-sketch-draw": {
+  "slug": "pencil-sketch-draw",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "PencilSketchDraw",
+  "durationInFrames": 134,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "pencil-sketch-draw.tsx",
+  "desc": "铅笔手绘揭示 —— 自包含 Remotion 源码（与 demos/pencil",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.0,
+   "max": 4.9
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "d": "M 200 316 L 460 320",
+    "stroke": "#1d1d1f"
+   }
+  }
+ },
+ "per-character-rise": {
+  "slug": "per-character-rise",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "PerCharacterRise",
+  "durationInFrames": 85,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "per-character-rise.tsx",
+  "desc": "逐字升起 —— 自包含 Remotion 源码（与 demos/per-char",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.6,
+   "max": 3.1
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "text": "先想清楚，再动手"
+   }
+  }
+ },
+ "pip-zoom-box": {
+  "slug": "pip-zoom-box",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "PipZoomBox",
+  "durationInFrames": 112,
+  "jsxTexts": [
+   "3 数字人分辨率兜不住，"
+  ],
+  "sourceFile": "pip-zoom-box.tsx",
+  "desc": "画中画放大 —— 自包含 Remotion 源码（与 demos/pip-zoo（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "3 数字人分辨率兜不住，"
+   ]
+  },
+  "category": "interaction",
+  "category3": "visual",
+  "visual_intent": [
+   "ui",
+   "emphasis",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.1
+  }
+ },
+ "pullback-cool-transition": {
+  "slug": "pullback-cool-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "PullbackCoolTransition",
+  "durationInFrames": 104,
+  "jsxTexts": [
+   "呼吸落定"
+  ],
+  "sourceFile": "pullback-cool-transition.tsx",
+  "desc": "后拉冷却转场 —— 自包含 Remotion 源码（与 demos/pullba（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "呼吸落定"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.1,
+   "max": 3.8
+  }
+ },
+ "push-through-transition": {
+  "slug": "push-through-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "PushThroughTransition",
+  "durationInFrames": 95,
+  "jsxTexts": [
+   "推穿",
+   "同向沉降"
+  ],
+  "sourceFile": "push-through-transition.tsx",
+  "desc": "推穿转场 —— 自包含 Remotion 源码（与 demos/push-thr（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "推穿",
+    "同向沉降"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.5
+  }
+ },
+ "quote-bracket-pull": {
+  "slug": "quote-bracket-pull",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "QuoteBracketPull",
+  "durationInFrames": 119,
+  "jsxTexts": [
+   "真正拉开差距的",
+   "从来不是谁更聪明"
+  ],
+  "sourceFile": "quote-bracket-pull.tsx",
+  "desc": "引号夹句 —— 自包含 Remotion 源码（与 demos/quote-br（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "真正拉开差距的",
+    "从来不是谁更聪明"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "quote"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "quote-card": {
+  "slug": "quote-card",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 7
+  },
+  "component": "QuoteCard",
+  "durationInFrames": 123,
+  "jsxTexts": [
+   "赚钱这件事",
+   "从来不靠",
+   "努力",
+   "靠的是",
+   "认知",
+   "和你敢不敢选",
+   "—— 口播金句 · 第 47 期"
+  ],
+  "sourceFile": "quote-card.tsx",
+  "desc": "金句大字卡 —— 自包含 Remotion 源码（与 demos/quote-c（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "赚钱这件事",
+    "从来不靠",
+    "努力",
+    "靠的是"
+   ]
+  },
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis",
+   "quote"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.7,
+   "max": 4.5
+  }
+ },
+ "quote-hold-arrow": {
+  "slug": "quote-hold-arrow",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 3
+  },
+  "component": "QuoteHoldArrow",
+  "durationInFrames": 128,
+  "jsxTexts": [
+   "你现在觉得难受",
+   "不是因为你不行",
+   "是因为你正在走出舒适区"
+  ],
+  "sourceFile": "quote-hold-arrow.tsx",
+  "desc": "金句停留 —— 自包含 Remotion 源码（与 demos/quote-ho（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "你现在觉得难受",
+    "不是因为你不行",
+    "是因为你正在走出舒适区"
+   ]
+  },
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis",
+   "quote",
+   "relationship"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.8,
+   "max": 4.7
+  }
+ },
+ "scribble-annotation": {
+  "slug": "scribble-annotation",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 4
+  },
+  "component": "ScribbleAnnotation",
+  "durationInFrames": 104,
+  "jsxTexts": [
+   "「限时特惠」某品牌无线耳机",
+   "降噪深度 48dB · 续航 36 小时 · 蓝牙 5.4",
+   "数据来自实验室理想环境，实际效果因人而异",
+   "立即抢购"
+  ],
+  "sourceFile": "scribble-annotation.tsx",
+  "desc": "手绘圈注箭头 —— 自包含 Remotion 源码（与 demos/scribb（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "「限时特惠」某品牌无线耳机",
+    "降噪深度 48dB · 续航 36 小时 · 蓝牙 5.4",
+    "数据来自实验室理想环境，实际效果因人而异",
+    "立即抢购"
+   ]
+  },
+  "category": "effects",
+  "category3": "visual",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.1,
+   "max": 3.8
+  }
+ },
+ "shape-wipe-transition": {
+  "slug": "shape-wipe-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 5
+  },
+  "component": "ShapeWipeTransition",
+  "durationInFrames": 74,
+  "jsxTexts": [
+   "0.7 读作拉幕布，",
+   "01 · 讲概念",
+   "02 · 看数据",
+   "季度营收同比增速",
+   "数据来源：公司 2024 年报"
+  ],
+  "sourceFile": "shape-wipe-transition.tsx",
+  "desc": "色块扫屏转场 —— 自包含 Remotion 源码（与 demos/shape-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "0.7 读作拉幕布，",
+    "01 · 讲概念",
+    "02 · 看数据",
+    "季度营收同比增速"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.2,
+   "max": 2.7
+  }
+ },
+ "slab-punch-title": {
+  "slug": "slab-punch-title",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "SlabPunchTitle",
+  "durationInFrames": 91,
+  "jsxTexts": [
+   "找到"
+  ],
+  "sourceFile": "slab-punch-title.tsx",
+  "desc": "重点放大 —— 自包含 Remotion 源码（与 demos/slab-pun（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "找到"
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 2.7,
+   "max": 3.3
+  }
+ },
+ "slow-pull-reveal": {
+  "slug": "slow-pull-reveal",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 18
+  },
+  "component": "SlowPullReveal",
+  "durationInFrames": 189,
+  "jsxTexts": [
+   "增长看板 · 2026 Q3",
+   "总览",
+   "明细",
+   "配置",
+   "日活跃用户",
+   "较上周 +18.4%",
+   "留存率",
+   "较上周 +2.1pt",
+   "单客成本",
+   "较上周 -12.0%",
+   "付费转化",
+   "较上周 +0.6pt",
+   "近 12 周活跃趋势",
+   "渠道贡献 TOP 8",
+   "分端占比",
+   "时段分布",
+   "地区分布",
+   "版本分布"
+  ],
+  "sourceFile": "slow-pull-reveal.tsx",
+  "desc": "缓拉全貌 —— 自包含 Remotion 源码（与 demos/slow-pul（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "增长看板 · 2026 Q3",
+    "总览",
+    "明细",
+    "配置"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "low",
+  "duration_sec": {
+   "min": 5.7,
+   "max": 6.9
+  }
+ },
+ "slow-push-in": {
+  "slug": "slow-push-in",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 9
+  },
+  "component": "SlowPushIn",
+  "durationInFrames": 186,
+  "jsxTexts": [
+   "深度报道 · 模型能力",
+   "推理时算力，正在重写模型能力的分水岭",
+   "本刊记者",
+   "林越",
+   "· 2026 年 8 月 12 日 · 全文约 6800 字",
+   "—— 摘自实验组第三次复现记录",
+   "相关阅读",
+   "推理正确率",
+   "单次成本"
+  ],
+  "sourceFile": "slow-push-in.tsx",
+  "desc": "缓推特写 —— 自包含 Remotion 源码（与 demos/slow-pus（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "深度报道 · 模型能力",
+    "推理时算力，正在重写模型能力的分水岭",
+    "本刊记者 ",
+    "林越"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "low",
+  "duration_sec": {
+   "min": 5.6,
+   "max": 6.8
+  }
+ },
+ "soft-blur-in": {
+  "slug": "soft-blur-in",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "SoftBlurIn",
+  "durationInFrames": 92,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "soft-blur-in.tsx",
+  "desc": "柔焦淡入 —— 自包含 Remotion 源码（与 demos/soft-blu",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "low",
+  "duration_sec": {
+   "min": 2.8,
+   "max": 3.4
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "text": "答案往往没那么复杂"
+   }
+  }
+ },
+ "speed-slab-title": {
+  "slug": "speed-slab-title",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "SpeedSlabTitle",
+  "durationInFrames": 98,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "speed-slab-title.tsx",
+  "desc": "速度块标题 —— 自包含 Remotion 源码（与 demos/speed-s",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.6
+  },
+  "slotDefaults": {}
+ },
+ "stage-keyframe-tour": {
+  "slug": "stage-keyframe-tour",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 15
+  },
+  "component": "StageKeyframeTour",
+  "durationInFrames": 275,
+  "jsxTexts": [
+   "全新版本 2.0",
+   "把你的调研，变成一条能播的片子",
+   "从口播稿到成片，时间戳对齐、镜头分层、动效选型全部自动接管，导出即可发布。",
+   "字级时间戳",
+   "镜头分层",
+   "动效配方卡",
+   "张动效配方卡",
+   "成片速度提升",
+   "时间戳对齐准确率",
+   "个人",
+   "／月",
+   "专业",
+   "／月",
+   "团队",
+   "／月"
+  ],
+  "sourceFile": "stage-keyframe-tour.tsx",
+  "desc": "长页兴趣点巡游 —— 自包含 Remotion 源码（与 demos/stage（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "全新版本 2.0",
+    "把你的调研，变成一条能播的片子",
+    "从口播稿到成片，时间戳对齐、镜头分层、动效选型全部自动接管，导出即可发布。",
+    "字级时间戳"
+   ]
+  },
+  "category": "effects",
+  "category3": "visual",
+  "visual_intent": [
+   "emphasis",
+   "timeline"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 8.2,
+   "max": 10.1
+  }
+ },
+ "step-timeline-vertical": {
+  "slug": "step-timeline-vertical",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "STEPS": true
+  },
+  "arities": {
+   "STEPS": 4
+  },
+  "component": "StepTimelineVertical",
+  "durationInFrames": 118,
+  "sourceFile": "step-timeline-vertical.tsx",
+  "desc": "竖向步骤线 —— 自包含 Remotion 源码（与 demos/step-ti",
+  "slotDefaults": {
+   "STEPS": [
+    {
+     "at": 22,
+     "kicker": "第一步",
+     "title": "先把目标写成一句话"
+    },
+    {
+     "at": 132,
+     "kicker": "第二步",
+     "title": "砍掉两件不做的事"
+    },
+    {
+     "at": 242,
+     "kicker": "第三步",
+     "title": "今天就动第一步"
+    }
+   ]
+  },
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data",
+   "timeline",
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.5,
+   "max": 4.3
+  }
+ },
+ "strike-and-replace": {
+  "slug": "strike-and-replace",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "StrikeAndReplace",
+  "durationInFrames": 98,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "strike-and-replace.tsx",
+  "desc": "划线纠错替换 —— 自包含 Remotion 源码（与 demos/strike",
+  "visual_intent": [
+   "before_after"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.6
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "from": "128K",
+    "to": "1M"
+   }
+  }
+ },
+ "subscribe-cta": {
+  "slug": "subscribe-cta",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 3
+  },
+  "component": "SubscribeCta",
+  "durationInFrames": null,
+  "jsxTexts": [
+   "YouTube · 订阅 + 铃铛",
+   "B站 · 一键三连（长按点赞）",
+   "小红书 / 抖音 / X · 关注"
+  ],
+  "sourceFile": "subscribe-cta.tsx",
+  "desc": "多平台关注 CTA —— 自包含 Remotion 源码（与 demos/sub（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "YouTube · 订阅 + 铃铛",
+    "B站 · 一键三连（长按点赞）",
+    "小红书 / 抖音 / X · 关注"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sway-parallax": {
+  "slug": "sway-parallax",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 17
+  },
+  "component": "SwayParallax",
+  "durationInFrames": 198,
+  "jsxTexts": [
+   "工作流总览",
+   "一条流水线，把文案送到成片",
+   "四个环节各自可替换，中间产物全部可审、可回退。",
+   "四个环节",
+   "口播稿定稿",
+   "合成与对齐",
+   "分镜层矩阵",
+   "渲染与验收",
+   "实测结果",
+   "总工时",
+   "较人工 -71%",
+   "返工轮次",
+   "双 agent 循环",
+   "静止检测",
+   "首渲即过",
+   "成片时长",
+   "十三句"
+  ],
+  "sourceFile": "sway-parallax.tsx",
+  "desc": "左右摇移 —— 自包含 Remotion 源码（与 demos/sway-par（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "工作流总览",
+    "一条流水线，把文案送到成片",
+    "四个环节各自可替换，中间产物全部可审、可回退。",
+    "四个环节"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.9,
+   "max": 7.3
+  }
+ },
+ "terminal-typing-log": {
+  "slug": "terminal-typing-log",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "TerminalTypingLog",
+  "durationInFrames": null,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "terminal-typing-log.tsx",
+  "desc": "终端逐行推进 —— 自包含 Remotion 源码（与 demos/termin",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "k": "ok",
+    "t": "✓ built in 6.42s"
+   }
+  }
+ },
+ "tilt-3d-page": {
+  "slug": "tilt-3d-page",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 7
+  },
+  "component": "Tilt3dPage",
+  "durationInFrames": 162,
+  "jsxTexts": [
+   "全新版本 2.0",
+   "把你的调研，变成一条能播的片子",
+   "从口播稿到成片，时间戳对齐、镜头分层、动效选型全部自动接管，导出即可发布。",
+   "字级时间戳",
+   "镜头分层",
+   "动效配方卡",
+   "／月　含无限次渲染"
+  ],
+  "sourceFile": "tilt-3d-page.tsx",
+  "desc": "3D 立面展示 —— 自包含 Remotion 源码（与 demos/tilt-（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "全新版本 2.0",
+    "把你的调研，变成一条能播的片子",
+    "从口播稿到成片，时间戳对齐、镜头分层、动效选型全部自动接管，导出即可发布。",
+    "字级时间戳"
+   ]
+  },
+  "category": "interaction",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.9,
+   "max": 5.9
+  }
+ },
+ "tracking-in": {
+  "slug": "tracking-in",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "TrackingIn",
+  "durationInFrames": 90,
+  "jsxTexts": [
+   "认知决定上限"
+  ],
+  "sourceFile": "tracking-in.tsx",
+  "desc": "字距收拢 —— 自包含 Remotion 源码（与 demos/tracking（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "认知决定上限"
+   ]
+  },
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.7,
+   "max": 3.3
+  }
+ },
+ "type-contrast-emphasis": {
+  "slug": "type-contrast-emphasis",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true
+  },
+  "arities": {},
+  "component": "TypeContrastEmphasis",
+  "durationInFrames": 67,
+  "reason": "内容硬编码在 JSX（无内容常量，仅 timing 可注入）",
+  "sourceFile": "type-contrast-emphasis.tsx",
+  "desc": "字体对比重音 —— 自包含 Remotion 源码（与 demos/type-c",
+  "visual_intent": [
+   "before_after"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.0,
+   "max": 2.5
+  },
+  "slotDefaults": {
+   "CONFIG": {
+    "mode": "append",
+    "emph": "color",
+    "w": "信任"
+   }
+  }
+ },
+ "typewriter-reveal": {
+  "slug": "typewriter-reveal",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "TypewriterReveal",
+  "durationInFrames": null,
+  "reason": "",
+  "sourceFile": "typewriter-reveal.tsx",
+  "desc": "打字机档案戳 —— 自包含 Remotion 源码（与 demos/typewr（已接线）",
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "ui-flow-theater": {
+  "slug": "ui-flow-theater",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "STEPS": true,
+   "TEXT": true
+  },
+  "arities": {
+   "STEPS": 5,
+   "TEXT": 15
+  },
+  "component": "UiFlowTheater",
+  "durationInFrames": 281,
+  "jsxTexts": [
+   "输出设置",
+   "字幕、主题与音量，改完记得保存",
+   "自动生成字幕",
+   "按语音逐句对齐",
+   "界面主题",
+   "预览窗与导出封面同步切换",
+   "浅色",
+   "深色",
+   "跟随",
+   "输出音量",
+   "混音后的整体电平",
+   "取消",
+   "保存设置",
+   "设置已保存",
+   "下一条视频开始生效"
+  ],
+  "sourceFile": "ui-flow-theater.tsx",
+  "desc": "界面流程剧场 —— 自包含 Remotion 源码（与 demos/ui-flo（已接线）",
+  "slotDefaults": {
+   "STEPS": [
+    {
+     "at": 2.1,
+     "target": "sw",
+     "act": "click",
+     "move": "long"
+    },
+    {
+     "at": 3.1,
+     "target": "seg",
+     "act": "click",
+     "move": "short"
+    },
+    {
+     "at": 4.05,
+     "target": "sld",
+     "act": "drag",
+     "move": "short",
+     "until": 4.95
+    },
+    {
+     "at": 5.9,
+     "target": "save",
+     "act": "click",
+     "move": "long"
+    }
+   ],
+   "TEXT": [
+    "输出设置",
+    "字幕、主题与音量，改完记得保存",
+    "自动生成字幕",
+    "按语音逐句对齐"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui",
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 8.4,
+   "max": 10.3
+  }
+ },
+ "ui-prop-theater": {
+  "slug": "ui-prop-theater",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "component": "UiPropTheater",
+  "durationInFrames": 179,
+  "jsxTexts": [
+   "Studio 安装程序"
+  ],
+  "sourceFile": "ui-prop-theater.tsx",
+  "desc": "界面道具剧场 —— 自包含 Remotion 源码（与 demos/ui-pro（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "Studio 安装程序"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "whip-pan-transition": {
+  "slug": "whip-pan-transition",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "component": "WhipPanTransition",
+  "durationInFrames": 84,
+  "jsxTexts": [
+   "横甩",
+   "同向刹住"
+  ],
+  "sourceFile": "whip-pan-transition.tsx",
+  "desc": "横甩转场 —— 自包含 Remotion 源码（与 demos/whip-pan（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "横甩",
+    "同向刹住"
+   ]
+  },
+  "category": "transition",
+  "category3": "visual",
+  "visual_intent": [
+   "transition",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 2.5,
+   "max": 3.1
+  }
+ },
+ "x-follow-card": {
+  "slug": "x-follow-card",
+  "tier": "injectable",
+  "contentKeys": {
+   "CONFIG": true,
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 15
+  },
+  "component": "XFollowCard",
+  "durationInFrames": null,
+  "jsxTexts": [
+   "陈叙白",
+   "十年产品设计，现在做独立开发。这里写用不完的方法论和踩过的坑。",
+   "正在关注",
+   "12.4万",
+   "12.5万",
+   "关注者",
+   "帖子",
+   "回复",
+   "媒体",
+   "喜欢",
+   "陈叙白",
+   "@chenxubai · 2天",
+   "今天上线了新东西，全靠一套自己攒的动效库和很多杯咖啡。",
+   "关注",
+   "已关注"
+  ],
+  "sourceFile": "x-follow-card.tsx",
+  "desc": "X 关注卡弹出 —— 自包含 Remotion 源码（与 demos/x-fol（已接线）",
+  "slotDefaults": {
+   "TEXT": [
+    "陈叙白",
+    "十年产品设计，现在做独立开发。这里写用不完的方法论和踩过的坑。",
+    " 正在关注",
+    "12.4万"
+   ]
+  },
+  "category": "ui-entrance",
+  "category3": "visual",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "ppt-steps": {
+  "slug": "ppt-steps",
+  "component": "PptSteps",
+  "tier": "injectable",
+  "contentKeys": {
+   "STEPS": true
+  },
+  "arities": {
+   "STEPS": 3
+  },
+  "durationInFrames": 120,
+  "desc": "PPT白卡步骤 —— 吸收自 out_video_ppt（CardIn阶梯入场+阴影淡入，2-4步自适应横竖排）",
+  "sourceFile": "ppt-steps.tsx",
+  "slotDefaults": {
+   "STEPS": [
+    "第一步 · 明确问题",
+    "第二步 · 拆解动作",
+    "第三步 · 小步验证"
+   ]
+  },
+  "category": "rhythm",
+  "category3": "narrative",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "ppt-compare": {
+  "slug": "ppt-compare",
+  "component": "PptCompare",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true,
+   "CONFIG": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 110,
+  "desc": "PPT对比卡 —— 吸收自 out_video_ppt（左右白卡+圆箭头回弹+结论条，TEXT[0]划线为旧做法）（已接线）",
+  "sourceFile": "ppt-compare.tsx",
+  "category": "opening",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis",
+   "before_after"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "stickman-talk": {
+  "slug": "stickman-talk",
+  "component": "StickmanTalk",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "durationInFrames": 120,
+  "desc": "火柴人讲解 —— 描边生长+挥手+气泡台词（IP 出镜之外的友好讲者形态）（已接线）",
+  "sourceFile": "stickman-talk.tsx",
+  "category": "effects",
+  "category3": "visual",
+  "visual_intent": [
+   "emphasis",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "type-serif": {
+  "slug": "type-serif",
+  "component": "TypeSerif",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "durationInFrames": 120,
+  "desc": "衬线宋体金句 —— 书卷气排印（竖排装饰+大号衬线+印章），字体卡（已接线）",
+  "sourceFile": "type-serif.tsx",
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "type-mono": {
+  "slug": "type-mono",
+  "component": "TypeMono",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "durationInFrames": 120,
+  "desc": "等宽终端字幕 —— 代码感排印（深底+行号+光标打字），字体卡（已接线）",
+  "sourceFile": "type-mono.tsx",
+  "category": "typography",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "digit-roll": {
+  "slug": "digit-roll",
+  "component": "DigitRollCard",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "durationInFrames": 120,
+  "desc": "数字滚轮 —— 移植自 shotcraft DigitRoll（里程表逐位滚动落定），数据卡（已接线）",
+  "sourceFile": "digit-roll.tsx",
+  "category": "data",
+  "category3": "narrative",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text",
+   "number"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "ticker-wall": {
+  "slug": "ticker-wall",
+  "component": "TickerWall",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 6
+  },
+  "durationInFrames": 120,
+  "desc": "3D 纵向滚动墙 —— 移植自 shotcraft VerticalTicker（三列异速循环+透视），氛围卡（已接线）",
+  "sourceFile": "ticker-wall.tsx",
+  "category": "opening",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "ppt-title": {
+  "slug": "ppt-title",
+  "component": "PptTitle",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true
+  },
+  "arities": {
+   "TEXT": 2
+  },
+  "durationInFrames": 110,
+  "desc": "PPT 章节标题 —— 移植自 out_video_ppt（PhasePill 药丸+大标题+进度线），开场卡（已接线）",
+  "sourceFile": "ppt-title.tsx",
+  "category": "opening",
+  "category3": "narrative",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-flash-cut": {
+  "slug": "sc-flash-cut",
+  "component": "FlashCut",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category": "transition",
+  "desc": "收编自外部 tsx；未检测到 __INJ__ 接线 → raw 手动档（transition）",
+  "sourceFile": "sc-flash-cut.tsx",
+  "category3": "visual",
+  "visual_intent": [
+   "transition",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-bottom-push-stack-wipe": {
+  "slug": "sc-bottom-push-stack-wipe",
+  "component": "BottomPushStackWipe",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · bottom-push-stack-wipe · 矩形槽位可填",
+  "sourceFile": "sc-bottom-push-stack-wipe.tsx",
+  "visual_intent": [
+   "transition",
+   "list"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-bubble-swarm-takeover": {
+  "slug": "sc-bubble-swarm-takeover",
+  "component": "BubbleSwarmTakeover",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 3
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · bubble-swarm-takeover（已接线）",
+  "sourceFile": "sc-bubble-swarm-takeover.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Ciao!",
+    "¡Hola!",
+    "Hallo!"
+   ]
+  }
+ },
+ "sc-card-flock-tumble": {
+  "slug": "sc-card-flock-tumble",
+  "component": "CardFlockTumble",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · card-flock-tumble",
+  "sourceFile": "sc-card-flock-tumble.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-circle-match-iris": {
+  "slug": "sc-circle-match-iris",
+  "component": "CircleMatchIris",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · circle-match-iris",
+  "sourceFile": "sc-circle-match-iris.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-color-block-step-wipe": {
+  "slug": "sc-color-block-step-wipe",
+  "component": "ColorBlockStepWipe",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 3
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · color-block-step-wipe · 矩形槽位可填",
+  "sourceFile": "sc-color-block-step-wipe.tsx",
+  "visual_intent": [
+   "transition",
+   "process"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-cube-navigation": {
+  "slug": "sc-cube-navigation",
+  "component": "CubeNavigation",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 180,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · cube-navigation",
+  "sourceFile": "sc-cube-navigation.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-gradient-transition": {
+  "slug": "sc-gradient-transition",
+  "component": "GradientTransition",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 180,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · gradient-transition",
+  "sourceFile": "sc-gradient-transition.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-line-carry-transition": {
+  "slug": "sc-line-carry-transition",
+  "component": "LineCarryTransition",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · line-carry-transition · 矩形槽位可填",
+  "sourceFile": "sc-line-carry-transition.tsx",
+  "visual_intent": [
+   "transition",
+   "data"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-mosaic-reframe": {
+  "slug": "sc-mosaic-reframe",
+  "component": "MosaicReframe",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 180,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · mosaic-reframe",
+  "sourceFile": "sc-mosaic-reframe.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-page-turn-transitions": {
+  "slug": "sc-page-turn-transitions",
+  "component": "CubeRotate",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · page-turn-transitions（已接线）",
+  "sourceFile": "sc-page-turn-transitions.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "CUBE ROTATE"
+   ]
+  }
+ },
+ "sc-paper-plane-messenger": {
+  "slug": "sc-paper-plane-messenger",
+  "component": "PaperPlaneMessenger",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · paper-plane-messenger · 矩形槽位可填",
+  "sourceFile": "sc-paper-plane-messenger.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-print-texture-transitions": {
+  "slug": "sc-print-texture-transitions",
+  "component": "InkBleedReveal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · print-texture-transitions（已接线）",
+  "sourceFile": "sc-print-texture-transitions.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "BEFORE"
+   ]
+  }
+ },
+ "sc-shot-transitions": {
+  "slug": "sc-shot-transitions",
+  "component": "BlackCardTransition",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · shot-transitions（已接线）",
+  "sourceFile": "sc-shot-transitions.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "oklch(92% 0.01 82)"
+   ],
+   "TEXT": [
+    "ui-serif, Georgia, \"Times New Roman\", serif"
+   ],
+   "TEXT2": [
+    "ui-monospace, SFMono-Regular, Menlo, monospace"
+   ]
+  }
+ },
+ "sc-tear-streak-transitions": {
+  "slug": "sc-tear-streak-transitions",
+  "component": "GlitchDisplace",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · tear-streak-transitions",
+  "sourceFile": "sc-tear-streak-transitions.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-transition-hidden-cut": {
+  "slug": "sc-transition-hidden-cut",
+  "component": "LightLeakBurn",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · transition-hidden-cut（已接线）",
+  "sourceFile": "sc-transition-hidden-cut.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Next Page"
+   ]
+  }
+ },
+ "sc-transition-travel": {
+  "slug": "sc-transition-travel",
+  "component": "LetterformZoom",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · transition-travel",
+  "sourceFile": "sc-transition-travel.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-white-flash-logo-simplify-cut": {
+  "slug": "sc-white-flash-logo-simplify-cut",
+  "component": "WhiteFlashLogoSimplifyCut",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 108,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · white-flash-logo-simplify-cut（已接线）",
+  "sourceFile": "sc-white-flash-logo-simplify-cut.tsx",
+  "visual_intent": [
+   "transition",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 3.2,
+   "max": 4.0
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "BRAND"
+   ]
+  }
+ },
+ "sc-wipe-transitions": {
+  "slug": "sc-wipe-transitions",
+  "component": "BlindsSlice",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · wipe-transitions",
+  "sourceFile": "sc-wipe-transitions.tsx",
+  "visual_intent": [
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-basic-3d-scene": {
+  "slug": "sc-basic-3d-scene",
+  "component": "Basic3DScene",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4,
+   "TEXT2": 4
+  },
+  "durationInFrames": 180,
+  "category3": "narrative",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · basic-3d-scene（已接线）",
+  "sourceFile": "sc-basic-3d-scene.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-crash-zoom-punch": {
+  "slug": "sc-crash-zoom-punch",
+  "component": "CrashImpactReal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · crash-zoom-punch（已接线）",
+  "sourceFile": "sc-crash-zoom-punch.tsx",
+  "visual_intent": [
+   "scene",
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "images": [
+   "image_1",
+   "image_2"
+  ]
+ },
+ "sc-depth-layer-moves": {
+  "slug": "sc-depth-layer-moves",
+  "component": "MultiplaneReal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · depth-layer-moves（已接线）",
+  "sourceFile": "sc-depth-layer-moves.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "images": [
+   "image_1",
+   "image_2",
+   "image_3"
+  ]
+ },
+ "sc-graze-face-tour": {
+  "slug": "sc-graze-face-tour",
+  "component": "GrazeFaceTour",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · graze-face-tour（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-graze-face-tour.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "SPACES"
+   ],
+   "TEXT": [
+    "Favorites"
+   ],
+   "TEXT2": [
+    "Recent"
+   ]
+  }
+ },
+ "sc-overhead-camera-moves": {
+  "slug": "sc-overhead-camera-moves",
+  "component": "OverheadTabletopDrop",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · overhead-camera-moves · 矩形槽位可填",
+  "sourceFile": "sc-overhead-camera-moves.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-space-camera-moves": {
+  "slug": "sc-space-camera-moves",
+  "component": "ExplodedView",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · space-camera-moves · 矩形槽位可填",
+  "sourceFile": "sc-space-camera-moves.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-steep-tilt-glide": {
+  "slug": "sc-steep-tilt-glide",
+  "component": "SteepTiltGlide",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · steep-tilt-glide（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-steep-tilt-glide.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "Product analytics"
+   ],
+   "TEXT": [
+    "ClickUp"
+   ],
+   "TEXT2": [
+    "ClickUp 3.0"
+   ]
+  }
+ },
+ "sc-tension-camera-moves": {
+  "slug": "sc-tension-camera-moves",
+  "component": "BulletTimeFreezeOrbit",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · tension-camera-moves（已接线）",
+  "sourceFile": "sc-tension-camera-moves.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "BULLET TIME"
+   ]
+  }
+ },
+ "sc-crane-rise-reveal": {
+  "slug": "sc-crane-rise-reveal",
+  "component": "CraneRiseReveal",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · crane-rise-reveal（特效卡·无内容槽豁免）",
+  "sourceFile": "sc-crane-rise-reveal.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-dataviz-landscape-open": {
+  "slug": "sc-dataviz-landscape-open",
+  "component": "DatavizLandscapeOpen",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · dataviz-landscape-open（已接线）",
+  "sourceFile": "sc-dataviz-landscape-open.tsx",
+  "visual_intent": [
+   "emphasis",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-fracture": {
+  "slug": "sc-fracture",
+  "component": "Fracture",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 156,
+  "category3": "visual",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · fracture（已接线）",
+  "sourceFile": "sc-fracture.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.7,
+   "max": 5.7
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "REASSEMBLE"
+   ]
+  }
+ },
+ "sc-letterspace-materialize": {
+  "slug": "sc-letterspace-materialize",
+  "component": "LetterspaceMaterialize",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · letterspace-materialize（已接线）",
+  "sourceFile": "sc-letterspace-materialize.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "SUPERHUMAN"
+   ]
+  }
+ },
+ "sc-magician-card-flourish": {
+  "slug": "sc-magician-card-flourish",
+  "component": "MagicianCardFlourish",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · magician-card-flourish（已接线）",
+  "sourceFile": "sc-magician-card-flourish.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "images": [
+   "image_1"
+  ]
+ },
+ "sc-orbit-ring-title-open": {
+  "slug": "sc-orbit-ring-title-open",
+  "component": "OrbitRingTitleOpen",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 130,
+  "category3": "visual",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · orbit-ring-title-open（已接线）（已接线）",
+  "sourceFile": "sc-orbit-ring-title-open.tsx",
+  "visual_intent": [
+   "emphasis",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.9,
+   "max": 4.8
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "2026 · Q3"
+   ],
+   "TEXT2": [
+    "SESSIONS"
+   ]
+  }
+ },
+ "sc-spotlight-hero-card": {
+  "slug": "sc-spotlight-hero-card",
+  "component": "SpotlightHeroCard",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 139,
+  "category3": "narrative",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · spotlight-hero-card（已接线）",
+  "sourceFile": "sc-spotlight-hero-card.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.2,
+   "max": 5.1
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "oklch(52% 0.115 65)"
+   ],
+   "TEXT": [
+    "ui-serif, Georgia, \"Times New Roman\", serif"
+   ],
+   "TEXT2": [
+    "oklch(18% 0.006 82)"
+   ]
+  }
+ },
+ "sc-stroke-segment-build": {
+  "slug": "sc-stroke-segment-build",
+  "component": "StrokeSegmentBuild",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · stroke-segment-build（已接线）",
+  "sourceFile": "sc-stroke-segment-build.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "STROKE SEGMENT BUILD"
+   ]
+  }
+ },
+ "sc-text-as-mask": {
+  "slug": "sc-text-as-mask",
+  "component": "TextAsMask",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · text-as-mask（已接线）",
+  "sourceFile": "sc-text-as-mask.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "SCALE"
+   ]
+  }
+ },
+ "sc-bezier-source-converge-merge": {
+  "slug": "sc-bezier-source-converge-merge",
+  "component": "BezierSourceConvergeMerge",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 168,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · bezier-source-converge-merge（已接线）",
+  "sourceFile": "sc-bezier-source-converge-merge.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.0,
+   "max": 6.2
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "rgba(59,130,246,.12)"
+   ],
+   "TEXT2": [
+    "Four sources unified"
+   ]
+  }
+ },
+ "sc-cloner-depth-echo": {
+  "slug": "sc-cloner-depth-echo",
+  "component": "ClonerDepthEcho",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 2
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · cloner-depth-echo · 矩形槽位可填",
+  "sourceFile": "sc-cloner-depth-echo.tsx",
+  "visual_intent": [
+   "ui",
+   "scene"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-deck-deal-flyin": {
+  "slug": "sc-deck-deal-flyin",
+  "component": "DeckDealFlyin",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 113,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · deck-deal-flyin（已接线）",
+  "sourceFile": "sc-deck-deal-flyin.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.1
+  },
+  "images": [
+   "image_1",
+   "image_2"
+  ]
+ },
+ "sc-doc-park-left-pill-deal": {
+  "slug": "sc-doc-park-left-pill-deal",
+  "component": "DocParkLeftPillDeal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 3,
+   "TEXT2": 3
+  },
+  "durationInFrames": 174,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · doc-park-left-pill-deal（已接线）",
+  "sourceFile": "sc-doc-park-left-pill-deal.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.2,
+   "max": 6.4
+  }
+ },
+ "sc-document-typewriter-reveal": {
+  "slug": "sc-document-typewriter-reveal",
+  "component": "DocumentTypewriterReveal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 110,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · document-typewriter-reveal（已接线）",
+  "sourceFile": "sc-document-typewriter-reveal.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "oklch(95% 0.05 85)"
+   ],
+   "TEXT": [
+    "ui-monospace, SFMono-Regular, Menlo, monospace"
+   ],
+   "TEXT2": [
+    "oklch(52% 0.115 65)"
+   ]
+  }
+ },
+ "sc-draw-svg-trace": {
+  "slug": "sc-draw-svg-trace",
+  "component": "DrawSvgTrace",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · draw-svg-trace（已接线）",
+  "sourceFile": "sc-draw-svg-trace.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "DRAW SVG TRACE"
+   ]
+  }
+ },
+ "sc-element-body-moves": {
+  "slug": "sc-element-body-moves",
+  "component": "ContactShadowLift",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 3
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · element-body-moves（已接线·SLOTS经Fixtures.Card）",
+  "sourceFile": "sc-element-body-moves.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-floating-glossy-label-pills": {
+  "slug": "sc-floating-glossy-label-pills",
+  "component": "FloatingGlossyLabelPills",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 120,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "四面板走廊轮播 —— 面板截图槽×4（330×255 比例）+ 胶囊文案×4，动效锁死（已接线）",
+  "sourceFile": "sc-floating-glossy-label-pills.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text",
+   "image"
+  ],
+  "energy": "low",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  }
+ },
+ "sc-integration-hub-map": {
+  "slug": "sc-integration-hub-map",
+  "component": "IntegrationHubMap",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · integration-hub-map（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-integration-hub-map.tsx",
+  "visual_intent": [
+   "ui",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "Enterprise MQLs"
+   ],
+   "TEXT": [
+    "QUICK FILTERS"
+   ],
+   "TEXT2": [
+    "Recent"
+   ]
+  }
+ },
+ "sc-morph-from-primitive": {
+  "slug": "sc-morph-from-primitive",
+  "component": "MorphFromPrimitive",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · morph-from-primitive（已接线）",
+  "sourceFile": "sc-morph-from-primitive.tsx",
+  "visual_intent": [
+   "ui",
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "images": [
+   "image_1"
+  ]
+ },
+ "sc-page-waterfall-wall": {
+  "slug": "sc-page-waterfall-wall",
+  "component": "PageWaterfallWall",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · page-waterfall-wall（已接线）",
+  "sourceFile": "sc-page-waterfall-wall.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "images": [
+   "image_1",
+   "image_2",
+   "image_3"
+  ]
+ },
+ "sc-paper-craft-moves": {
+  "slug": "sc-paper-craft-moves",
+  "component": "MaskingTapeSlap",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · paper-craft-moves（已接线）",
+  "sourceFile": "sc-paper-craft-moves.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "MASKING TAPE SLAP"
+   ]
+  }
+ },
+ "sc-platform-hinge-rise": {
+  "slug": "sc-platform-hinge-rise",
+  "component": "PlatformHingeRise",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 104,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · platform-hinge-rise（已接线）",
+  "sourceFile": "sc-platform-hinge-rise.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.1,
+   "max": 3.8
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "OUTCOME"
+   ],
+   "TEXT": [
+    "SUBJECT"
+   ],
+   "TEXT2": [
+    "CONTEXT"
+   ]
+  }
+ },
+ "sc-product-card-progressive-assemble": {
+  "slug": "sc-product-card-progressive-assemble",
+  "component": "ProductCardProgressiveAssemble",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · product-card-progressive-assemble（已接线）",
+  "sourceFile": "sc-product-card-progressive-assemble.tsx",
+  "visual_intent": [
+   "ui",
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "rgba(255,122,26,.42)"
+   ]
+  }
+ },
+ "sc-radial-wave": {
+  "slug": "sc-radial-wave",
+  "component": "RadialWave",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 114,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · radial-wave（特效卡·无内容槽豁免）",
+  "sourceFile": "sc-radial-wave.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.2
+  }
+ },
+ "sc-research-card-stack-scroll": {
+  "slug": "sc-research-card-stack-scroll",
+  "component": "ResearchCardStackScroll",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 14,
+   "TEXT2": 1
+  },
+  "durationInFrames": 144,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · research-card-stack-scroll（已接线）",
+  "sourceFile": "sc-research-card-stack-scroll.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.3,
+   "max": 5.3
+  },
+  "slotDefaults": {
+   "TEXT2": [
+    "A. Author, B. Writer, C. Reader"
+   ]
+  }
+ },
+ "sc-row-embed": {
+  "slug": "sc-row-embed",
+  "component": "RowEmbed",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 68,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · row-embed（已接线）",
+  "sourceFile": "sc-row-embed.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.0,
+   "max": 2.5
+  },
+  "images": [
+   "image_1"
+  ]
+ },
+ "sc-runway-ground-skim": {
+  "slug": "sc-runway-ground-skim",
+  "component": "RunwayGroundSkim",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · runway-ground-skim（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-runway-ground-skim.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "ClickUp"
+   ],
+   "TEXT": [
+    "Product analytics"
+   ],
+   "TEXT2": [
+    "SPACES"
+   ]
+  }
+ },
+ "sc-svg-shape-morph": {
+  "slug": "sc-svg-shape-morph",
+  "component": "SvgShapeMorph",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 156,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · svg-shape-morph（已接线）",
+  "sourceFile": "sc-svg-shape-morph.tsx",
+  "visual_intent": [
+   "ui",
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.7,
+   "max": 5.7
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "morphTo(shapeA)"
+   ],
+   "TEXT2": [
+    "morphTo(shapeB)"
+   ]
+  }
+ },
+ "sc-value-stagger-gradient": {
+  "slug": "sc-value-stagger-gradient",
+  "component": "ValueStaggerGradient",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · value-stagger-gradient（已接线）",
+  "sourceFile": "sc-value-stagger-gradient.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "scale: stagger([1, 0.35])  hue: stagger([200, 320])"
+   ],
+   "TEXT2": [
+    "pulse: stagger([.06, .42], { from: 'center' })"
+   ]
+  }
+ },
+ "sc-wall-reveal-moves": {
+  "slug": "sc-wall-reveal-moves",
+  "component": "GridWaveFlip",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · wall-reveal-moves · 矩形槽位可填",
+  "sourceFile": "sc-wall-reveal-moves.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-blur-slide": {
+  "slug": "sc-blur-slide",
+  "component": "BlurSlide",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 114,
+  "category3": "visual",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · blur-slide（已接线）",
+  "sourceFile": "sc-blur-slide.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.2
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Your headline goes here"
+   ],
+   "TEXT2": [
+    "Short supporting subtitle for placeholders"
+   ]
+  }
+ },
+ "sc-brace-expand": {
+  "slug": "sc-brace-expand",
+  "component": "BraceExpand",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 114,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · brace-expand（已接线）",
+  "sourceFile": "sc-brace-expand.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.4,
+   "max": 4.2
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "-apple-system,system-ui,sans-serif"
+   ]
+  }
+ },
+ "sc-brand-ink-open": {
+  "slug": "sc-brand-ink-open",
+  "component": "BrandInkOpen",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 104,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · brand-ink-open（已接线）",
+  "sourceFile": "sc-brand-ink-open.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.1,
+   "max": 3.8
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "oklch(18% 0.006 82)"
+   ],
+   "TEXT": [
+    "ui-serif, Georgia, \"Times New Roman\", serif"
+   ],
+   "TEXT2": [
+    "ui-monospace, SFMono-Regular, Menlo, monospace"
+   ]
+  }
+ },
+ "sc-cel-flash-stomp": {
+  "slug": "sc-cel-flash-stomp",
+  "component": "CelFlashStomp",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · cel-flash-stomp（已接线）",
+  "sourceFile": "sc-cel-flash-stomp.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "CEL FLASH STOMP"
+   ]
+  }
+ },
+ "sc-countdown-arc-scatter": {
+  "slug": "sc-countdown-arc-scatter",
+  "component": "CountdownArcScatter",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 3,
+   "TEXT2": 1
+  },
+  "durationInFrames": 33,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · countdown-arc-scatter（已接线）",
+  "sourceFile": "sc-countdown-arc-scatter.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.0,
+   "max": 1.2
+  },
+  "slotDefaults": {
+   "TEXT2": [
+    "5"
+   ]
+  }
+ },
+ "sc-flying-words": {
+  "slug": "sc-flying-words",
+  "component": "FlyingWords",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 22
+  },
+  "durationInFrames": 180,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · flying-words（已接线）",
+  "sourceFile": "sc-flying-words.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-gradient-word-sweep": {
+  "slug": "sc-gradient-word-sweep",
+  "component": "GradientWordSweep",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · gradient-word-sweep（已接线）（已接线）",
+  "sourceFile": "sc-gradient-word-sweep.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "performance"
+   ],
+   "TEXT2": [
+    "Supercharged"
+   ]
+  }
+ },
+ "sc-lead-word-zoom-assemble": {
+  "slug": "sc-lead-word-zoom-assemble",
+  "component": "LeadWordZoomAssemble",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 84,
+  "category3": "visual",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · lead-word-zoom-assemble（已接线）",
+  "sourceFile": "sc-lead-word-zoom-assemble.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.5,
+   "max": 3.1
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "-0.03em"
+   ],
+   "TEXT": [
+    "Introducing Lumen Deck"
+   ],
+   "TEXT2": [
+    "Lumen"
+   ]
+  }
+ },
+ "sc-marker-underline-title": {
+  "slug": "sc-marker-underline-title",
+  "component": "MarkerUnderlineTitle",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · marker-underline-title（已接线）（已接线）",
+  "sourceFile": "sc-marker-underline-title.tsx",
+  "visual_intent": [
+   "emphasis",
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Notion AI"
+   ]
+  }
+ },
+ "sc-outline-word-fill": {
+  "slug": "sc-outline-word-fill",
+  "component": "OutlineWordFill",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 75,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · outline-word-fill（已接线）",
+  "sourceFile": "sc-outline-word-fill.tsx",
+  "visual_intent": [
+   "emphasis",
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.2,
+   "max": 2.8
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Faster"
+   ]
+  }
+ },
+ "sc-paper-title-card": {
+  "slug": "sc-paper-title-card",
+  "component": "PaperTitleCard",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 55,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · paper-title-card（已接线）",
+  "sourceFile": "sc-paper-title-card.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.6,
+   "max": 2.0
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "of 31 fetched today"
+   ],
+   "TEXT": [
+    "ui-serif, Georgia, \"Times New Roman\", serif"
+   ],
+   "TEXT2": [
+    "ui-monospace, SFMono-Regular, Menlo, monospace"
+   ]
+  }
+ },
+ "sc-pill-chip-slot-cycle-handled": {
+  "slug": "sc-pill-chip-slot-cycle-handled",
+  "component": "PillChipSlotCycleHandled",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · pill-chip-slot-cycle-handled（已接线）（已接线）",
+  "sourceFile": "sc-pill-chip-slot-cycle-handled.tsx",
+  "visual_intent": [
+   "emphasis",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Handled"
+   ],
+   "TEXT2": [
+    "Your"
+   ]
+  }
+ },
+ "sc-pill-slot-cycle": {
+  "slug": "sc-pill-slot-cycle",
+  "component": "PillSlotCycle",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · pill-slot-cycle（已接线）",
+  "sourceFile": "sc-pill-slot-cycle.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Helvetica, Arial, sans-serif"
+   ]
+  }
+ },
+ "sc-scramble": {
+  "slug": "sc-scramble",
+  "component": "Scramble",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 96,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · scramble（已接线）",
+  "sourceFile": "sc-scramble.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.9,
+   "max": 3.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "TEMPLATE MOTION DEMO"
+   ],
+   "TEXT2": [
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#$%&*+=<>/\\\\"
+   ]
+  }
+ },
+ "sc-split-flap-title": {
+  "slug": "sc-split-flap-title",
+  "component": "SplitFlapFlip",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · split-flap-title（已接线）",
+  "sourceFile": "sc-split-flap-title.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "SHIP FASTER"
+   ],
+   "TEXT2": [
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#$%&"
+   ]
+  }
+ },
+ "sc-text-column-converge": {
+  "slug": "sc-text-column-converge",
+  "component": "TextColumnConverge",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · text-column-converge（已接线）",
+  "sourceFile": "sc-text-column-converge.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "COMING 2026"
+   ],
+   "TEXT2": [
+    "NEW"
+   ]
+  }
+ },
+ "sc-title-demote-to-label": {
+  "slug": "sc-title-demote-to-label",
+  "component": "TitleDemoteToLabel",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · title-demote-to-label（已接线）",
+  "sourceFile": "sc-title-demote-to-label.tsx",
+  "visual_intent": [
+   "emphasis",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Helvetica, Arial, sans-serif"
+   ],
+   "TEXT2": [
+    "rgba(58, 128, 236, 0.35)"
+   ]
+  }
+ },
+ "sc-type-assembly-moves": {
+  "slug": "sc-type-assembly-moves",
+  "component": "LetterformDriftAssembly",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · type-assembly-moves（已接线）",
+  "sourceFile": "sc-type-assembly-moves.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "ASSEMBLE"
+   ]
+  }
+ },
+ "sc-type-entrance-moves": {
+  "slug": "sc-type-entrance-moves",
+  "component": "LetterDropPhysics",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · type-entrance-moves（已接线）",
+  "sourceFile": "sc-type-entrance-moves.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "GRAVITY"
+   ]
+  }
+ },
+ "sc-type-rhythm-sync": {
+  "slug": "sc-type-rhythm-sync",
+  "component": "FontWeightPump",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · type-rhythm-sync（已接线）",
+  "sourceFile": "sc-type-rhythm-sync.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "PUMP IT UP"
+   ]
+  }
+ },
+ "sc-typewriter-moves": {
+  "slug": "sc-typewriter-moves",
+  "component": "TerminalTypewriter",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · typewriter-moves（已接线）",
+  "sourceFile": "sc-typewriter-moves.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "acme deploy --prod"
+   ]
+  }
+ },
+ "sc-typing-code-block": {
+  "slug": "sc-typing-code-block",
+  "component": "TypingCodeBlock",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 138,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · typing-code-block（已接线）",
+  "sourceFile": "sc-typing-code-block.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.1,
+   "max": 5.1
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "CHAR TYPING"
+   ],
+   "TEXT2": [
+    "LINE FADE-IN"
+   ]
+  }
+ },
+ "sc-word-relay-geometry": {
+  "slug": "sc-word-relay-geometry",
+  "component": "WordRelayGeometry",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 3
+  },
+  "durationInFrames": 180,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · word-relay-geometry（已接线）",
+  "sourceFile": "sc-word-relay-geometry.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-beat-cut-moves": {
+  "slug": "sc-beat-cut-moves",
+  "component": "PaparazziFlash",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · beat-cut-moves（已接线）",
+  "sourceFile": "sc-beat-cut-moves.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "84,213"
+   ]
+  }
+ },
+ "sc-montage-rhythm-moves": {
+  "slug": "sc-montage-rhythm-moves",
+  "component": "WrightTripleCut",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · montage-rhythm-moves（已接线）",
+  "sourceFile": "sc-montage-rhythm-moves.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "1"
+   ],
+   "TEXT2": [
+    "1"
+   ]
+  }
+ },
+ "sc-panel-grid-moves": {
+  "slug": "sc-panel-grid-moves",
+  "component": "ComicPanelSplit",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · panel-grid-moves（已接线）",
+  "sourceFile": "sc-panel-grid-moves.tsx",
+  "visual_intent": [
+   "process",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "1,284"
+   ]
+  }
+ },
+ "sc-rhythm-interrupt-moves": {
+  "slug": "sc-rhythm-interrupt-moves",
+  "component": "StrobeBlackFrames",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · rhythm-interrupt-moves（已接线）",
+  "sourceFile": "sc-rhythm-interrupt-moves.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "STROBE BLACK FRAMES"
+   ]
+  }
+ },
+ "sc-sakuga-timing-shift": {
+  "slug": "sc-sakuga-timing-shift",
+  "component": "SakugaTimingShift",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · sakuga-timing-shift · 矩形槽位可填",
+  "sourceFile": "sc-sakuga-timing-shift.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-smear-multiples": {
+  "slug": "sc-smear-multiples",
+  "component": "SmearMultiples",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · smear-multiples · 矩形槽位可填",
+  "sourceFile": "sc-smear-multiples.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-spectrum-morph-ui": {
+  "slug": "sc-spectrum-morph-ui",
+  "component": "SpectrumMorphUi",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · spectrum-morph-ui（已接线）",
+  "sourceFile": "sc-spectrum-morph-ui.tsx",
+  "visual_intent": [
+   "process",
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "LAUNCH WEEK"
+   ]
+  }
+ },
+ "sc-speed-ramp-freeze": {
+  "slug": "sc-speed-ramp-freeze",
+  "component": "FreezeAnnotateReal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · speed-ramp-freeze（已接线）",
+  "sourceFile": "sc-speed-ramp-freeze.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "images": [
+   "image_1"
+  ]
+ },
+ "sc-trailer-grammar-moves": {
+  "slug": "sc-trailer-grammar-moves",
+  "component": "SmashCut",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · trailer-grammar-moves · 矩形槽位可填",
+  "sourceFile": "sc-trailer-grammar-moves.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-assemble-then-type-flyin": {
+  "slug": "sc-assemble-then-type-flyin",
+  "component": "AssembleThenTypeFlyin",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 156,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · assemble-then-type-flyin（已接线）",
+  "sourceFile": "sc-assemble-then-type-flyin.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.7,
+   "max": 5.7
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "'SF Mono',Menlo,Consolas,monospace"
+   ],
+   "TEXT2": [
+    "Georgia,'Times New Roman',serif"
+   ]
+  }
+ },
+ "sc-aurora-bloom-bg-flip": {
+  "slug": "sc-aurora-bloom-bg-flip",
+  "component": "AuroraBloomBgFlip",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 156,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · aurora-bloom-bg-flip（已接线）",
+  "sourceFile": "sc-aurora-bloom-bg-flip.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.7,
+   "max": 5.7
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "600 26px -apple-system,system-ui,sans-serif"
+   ],
+   "TEXT": [
+    "For many years"
+   ],
+   "TEXT2": [
+    "everything changed"
+   ]
+  }
+ },
+ "sc-brand-frame-snap": {
+  "slug": "sc-brand-frame-snap",
+  "component": "BrandFrameSnap",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 2
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · brand-frame-snap（已接线）",
+  "sourceFile": "sc-brand-frame-snap.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-dashboard-glow-highlight-pill": {
+  "slug": "sc-dashboard-glow-highlight-pill",
+  "component": "DashboardGlowHighlightPill",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 60,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · dashboard-glow-highlight-pill（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-dashboard-glow-highlight-pill.tsx",
+  "visual_intent": [
+   "emphasis",
+   "quote",
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.8,
+   "max": 2.2
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "◆ ACME"
+   ],
+   "TEXT": [
+    "Earn"
+   ],
+   "TEXT2": [
+    "Trade"
+   ]
+  }
+ },
+ "sc-fui-hud-moves": {
+  "slug": "sc-fui-hud-moves",
+  "component": "ReticleLockOn",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · fui-hud-moves（已接线）",
+  "sourceFile": "sc-fui-hud-moves.tsx",
+  "visual_intent": [
+   "emphasis",
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "TARGET · CARD_02"
+   ]
+  }
+ },
+ "sc-glow-flyline-moves": {
+  "slug": "sc-glow-flyline-moves",
+  "component": "OrbFlylineRelay",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · glow-flyline-moves（特效卡·无内容槽豁免）",
+  "sourceFile": "sc-glow-flyline-moves.tsx",
+  "visual_intent": [
+   "emphasis",
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-icon-performance-moves": {
+  "slug": "sc-icon-performance-moves",
+  "component": "AttentionBounce",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · icon-performance-moves · 矩形槽位可填",
+  "sourceFile": "sc-icon-performance-moves.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-impact-feedback": {
+  "slug": "sc-impact-feedback",
+  "component": "AnimeImpact",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · impact-feedback（已接线）",
+  "sourceFile": "sc-impact-feedback.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "IMPACT"
+   ]
+  }
+ },
+ "sc-light-play-moves": {
+  "slug": "sc-light-play-moves",
+  "component": "HalationBloom",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · light-play-moves（已接线）",
+  "sourceFile": "sc-light-play-moves.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "10x"
+   ],
+   "TEXT2": [
+    "HALATION BLOOM"
+   ]
+  }
+ },
+ "sc-line-boil": {
+  "slug": "sc-line-boil",
+  "component": "LineBoil",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · line-boil（已接线）",
+  "sourceFile": "sc-line-boil.tsx",
+  "visual_intent": [
+   "emphasis",
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "low",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "LINE BOIL"
+   ]
+  }
+ },
+ "sc-riso-print-hits": {
+  "slug": "sc-riso-print-hits",
+  "component": "RisoBeatPump",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 3
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · riso-print-hits · 矩形槽位可填",
+  "sourceFile": "sc-riso-print-hits.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-scan-bracket-sweep": {
+  "slug": "sc-scan-bracket-sweep",
+  "component": "ScanBracketSweep",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · scan-bracket-sweep（特效卡·无内容槽豁免）",
+  "sourceFile": "sc-scan-bracket-sweep.tsx",
+  "visual_intent": [
+   "emphasis",
+   "quote"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-scanline-annotate-focus": {
+  "slug": "sc-scanline-annotate-focus",
+  "component": "ScanlineAnnotateFocus",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 138,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · scanline-annotate-focus（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-scanline-annotate-focus.tsx",
+  "visual_intent": [
+   "emphasis",
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.1,
+   "max": 5.1
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "200 OK · TLS"
+   ],
+   "TEXT": [
+    "The headline for"
+   ],
+   "TEXT2": [
+    "Studio"
+   ]
+  }
+ },
+ "sc-scanline-assemble-flyin": {
+  "slug": "sc-scanline-assemble-flyin",
+  "component": "ScanlineAssembleFlyin",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 138,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · scanline-assemble-flyin（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-scanline-assemble-flyin.tsx",
+  "visual_intent": [
+   "emphasis",
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.1,
+   "max": 5.1
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "200 OK · TLS"
+   ],
+   "TEXT": [
+    "The headline for"
+   ],
+   "TEXT2": [
+    "Studio"
+   ]
+  }
+ },
+ "sc-slam-entrance-moves": {
+  "slug": "sc-slam-entrance-moves",
+  "component": "ScoreSlam",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · slam-entrance-moves（已接线）",
+  "sourceFile": "sc-slam-entrance-moves.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "SCORE SLAM"
+   ]
+  }
+ },
+ "sc-spotlight-sweep-moves": {
+  "slug": "sc-spotlight-sweep-moves",
+  "component": "GlowWakeSleepPanel",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · spotlight-sweep-moves（特效卡·无内容槽豁免）",
+  "sourceFile": "sc-spotlight-sweep-moves.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-before-after-slider-scrub": {
+  "slug": "sc-before-after-slider-scrub",
+  "component": "BeforeAfterSliderScrub",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · before-after-slider-scrub（特效卡·无内容槽豁免）",
+  "sourceFile": "sc-before-after-slider-scrub.tsx",
+  "visual_intent": [
+   "data",
+   "before_after"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-chart-live-moves": {
+  "slug": "sc-chart-live-moves",
+  "component": "AxisRescaleShockV2",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · chart-live-moves（已接线）",
+  "sourceFile": "sc-chart-live-moves.tsx",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "AXIS RESCALE SHOCK V2"
+   ]
+  }
+ },
+ "sc-cycle-glass-node-morph": {
+  "slug": "sc-cycle-glass-node-morph",
+  "component": "CycleGlassNodeMorph",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 3,
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 257,
+  "category3": "visual",
+  "category": "sc:data",
+  "desc": "shotcraft data · cycle-glass-node-morph（已接线）",
+  "sourceFile": "sc-cycle-glass-node-morph.tsx",
+  "visual_intent": [
+   "data",
+   "transition",
+   "relationship"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 7.7,
+   "max": 9.4
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "CONTEXT"
+   ],
+   "TEXT2": [
+    "SYSTEM LOOP",
+    "SUBJECT"
+   ]
+  }
+ },
+ "sc-gauge-readout-moves": {
+  "slug": "sc-gauge-readout-moves",
+  "component": "NeedleSweepSelftest",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · gauge-readout-moves（已接线）",
+  "sourceFile": "sc-gauge-readout-moves.tsx",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text",
+   "number"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "NEEDLE SWEEP SELF-TEST"
+   ]
+  }
+ },
+ "sc-hatch-depth": {
+  "slug": "sc-hatch-depth",
+  "component": "HatchDepth",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 2
+  },
+  "durationInFrames": 132,
+  "category3": "visual",
+  "category": "sc:data",
+  "desc": "shotcraft data · hatch-depth（已接线）（已接线）",
+  "sourceFile": "sc-hatch-depth.tsx",
+  "visual_intent": [
+   "data",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.0,
+   "max": 4.8
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "● LIVE"
+   ],
+   "TEXT2": [
+    "METRICS"
+   ]
+  }
+ },
+ "sc-odometer-digit-roll": {
+  "slug": "sc-odometer-digit-roll",
+  "component": "OdometerDigitRoll",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · odometer-digit-roll（已接线）",
+  "sourceFile": "sc-odometer-digit-roll.tsx",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text",
+   "number"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "ODOMETER DIGIT ROLL"
+   ]
+  }
+ },
+ "sc-particle-celebrate-hits": {
+  "slug": "sc-particle-celebrate-hits",
+  "component": "ConfettiCrossfire",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · particle-celebrate-hits（已接线）",
+  "sourceFile": "sc-particle-celebrate-hits.tsx",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "CONFETTI CROSSFIRE"
+   ]
+  }
+ },
+ "sc-particle-sand-fill": {
+  "slug": "sc-particle-sand-fill",
+  "component": "ParticleSandFill",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · particle-sand-fill（已接线）",
+  "sourceFile": "sc-particle-sand-fill.tsx",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "PARTICLE SAND FILL"
+   ]
+  }
+ },
+ "sc-ring-diagram-annotation-reveal": {
+  "slug": "sc-ring-diagram-annotation-reveal",
+  "component": "RingDiagramAnnotationReveal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 2,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 190,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · ring-diagram-annotation-reveal（已接线）",
+  "sourceFile": "sc-ring-diagram-annotation-reveal.tsx",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.7,
+   "max": 7.0
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "CONTENT",
+    "SUBJECT"
+   ],
+   "TEXT": [
+    "EXPLANATION"
+   ],
+   "TEXT2": [
+    "SUPPORTING DETAIL"
+   ]
+  }
+ },
+ "sc-scroll-brake-moves": {
+  "slug": "sc-scroll-brake-moves",
+  "component": "BrakeReticleLock",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · scroll-brake-moves（已接线）",
+  "sourceFile": "sc-scroll-brake-moves.tsx",
+  "visual_intent": [
+   "data",
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "v2.41"
+   ]
+  }
+ },
+ "sc-timeline-travel": {
+  "slug": "sc-timeline-travel",
+  "component": "TimelineTravel",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · timeline-travel · 矩形槽位可填",
+  "sourceFile": "sc-timeline-travel.tsx",
+  "visual_intent": [
+   "data",
+   "timeline"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-autolayout-gap-dial": {
+  "slug": "sc-autolayout-gap-dial",
+  "component": "AutolayoutGapDial",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · autolayout-gap-dial（已接线）",
+  "sourceFile": "sc-autolayout-gap-dial.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "GAP"
+   ]
+  }
+ },
+ "sc-canvas-materialize-moves": {
+  "slug": "sc-canvas-materialize-moves",
+  "component": "PanelToCanvasMaterialize",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · canvas-materialize-moves（已接线）",
+  "sourceFile": "sc-canvas-materialize-moves.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Add all to canvas"
+   ]
+  }
+ },
+ "sc-chip-grid-single-select-blackout": {
+  "slug": "sc-chip-grid-single-select-blackout",
+  "component": "ChipGridSingleSelectBlackout",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · chip-grid-single-select-blackout（已接线）",
+  "sourceFile": "sc-chip-grid-single-select-blackout.tsx",
+  "visual_intent": [
+   "ui",
+   "character",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "18% off  ·  42.00  →  34.44"
+   ]
+  }
+ },
+ "sc-chip-lift-to-user-pill": {
+  "slug": "sc-chip-lift-to-user-pill",
+  "component": "ChipLiftToUserPill",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · chip-lift-to-user-pill（已接线）",
+  "sourceFile": "sc-chip-lift-to-user-pill.tsx",
+  "visual_intent": [
+   "ui",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Casey Doe"
+   ],
+   "TEXT2": [
+    "Starting with Casey"
+   ]
+  }
+ },
+ "sc-collab-cursor-moves": {
+  "slug": "sc-collab-cursor-moves",
+  "component": "CursorCastEnsemble",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · collab-cursor-moves（已接线）",
+  "sourceFile": "sc-collab-cursor-moves.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Our customers love it"
+   ]
+  }
+ },
+ "sc-command-palette-summon": {
+  "slug": "sc-command-palette-summon",
+  "component": "CommandPaletteSummon",
+  "tier": "raw",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · command-palette-summon（特效卡·无内容槽豁免）",
+  "sourceFile": "sc-command-palette-summon.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-glass-pill-dictation-typing": {
+  "slug": "sc-glass-pill-dictation-typing",
+  "component": "GlassPillDictationTyping",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 50,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · glass-pill-dictation-typing（已接线）",
+  "sourceFile": "sc-glass-pill-dictation-typing.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.5,
+   "max": 1.8
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "-apple-system,system-ui,\"Segoe UI\",sans-serif"
+   ],
+   "TEXT2": [
+    "Speak or type here"
+   ]
+  }
+ },
+ "sc-hashtag-to-pill-materialize": {
+  "slug": "sc-hashtag-to-pill-materialize",
+  "component": "HashtagToPillMaterialize",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · hashtag-to-pill-materialize（已接线）（已接线）",
+  "sourceFile": "sc-hashtag-to-pill-materialize.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "music"
+   ]
+  }
+ },
+ "sc-input-trigger-moves": {
+  "slug": "sc-input-trigger-moves",
+  "component": "KeycapSmashCut",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · input-trigger-moves · 矩形槽位可填",
+  "sourceFile": "sc-input-trigger-moves.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-segmented-thumb-hero": {
+  "slug": "sc-segmented-thumb-hero",
+  "component": "SegmentedThumbHero",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · segmented-thumb-hero（已接线）",
+  "sourceFile": "sc-segmented-thumb-hero.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Helvetica, Arial, sans-serif"
+   ]
+  }
+ },
+ "sc-theme-switch-moves": {
+  "slug": "sc-theme-switch-moves",
+  "component": "PaletteThemeRipple",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · theme-switch-moves（已接线）（已接线）（已接线）",
+  "sourceFile": "sc-theme-switch-moves.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "⌘K"
+   ]
+  }
+ },
+ "sc-type-and-filter": {
+  "slug": "sc-type-and-filter",
+  "component": "TypeAndFilter",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 73,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · type-and-filter（已接线）",
+  "sourceFile": "sc-type-and-filter.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.2,
+   "max": 2.7
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "nano-lab"
+   ],
+   "TEXT": [
+    "oklch(58% 0.13 65)"
+   ],
+   "TEXT2": [
+    "nano-lab"
+   ]
+  }
+ },
+ "sc-voice-waveform-live": {
+  "slug": "sc-voice-waveform-live",
+  "component": "VoiceWaveformLive",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · voice-waveform-live（已接线）",
+  "sourceFile": "sc-voice-waveform-live.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "🎙️"
+   ]
+  }
+ },
+ "sc-edit-hook-moves": {
+  "slug": "sc-edit-hook-moves",
+  "component": "LogoStingButton",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:outro",
+  "desc": "shotcraft outro · edit-hook-moves（已接线）",
+  "sourceFile": "sc-edit-hook-moves.tsx",
+  "visual_intent": [
+   "cta"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "ACME"
+   ]
+  }
+ },
+ "sc-grain-dissolve": {
+  "slug": "sc-grain-dissolve",
+  "component": "GrainDissolve",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 60,
+  "category3": "narrative",
+  "category": "sc:outro",
+  "desc": "shotcraft outro · grain-dissolve（已接线）",
+  "sourceFile": "sc-grain-dissolve.tsx",
+  "visual_intent": [
+   "cta",
+   "transition"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.8,
+   "max": 2.2
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "{ ACME. Now Live }"
+   ],
+   "TEXT2": [
+    "ACME"
+   ]
+  }
+ },
+ "sc-logo-shrink-wordmark-lockup": {
+  "slug": "sc-logo-shrink-wordmark-lockup",
+  "component": "LogoShrinkWordmarkLockup",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 132,
+  "category3": "narrative",
+  "category": "sc:outro",
+  "desc": "shotcraft outro · logo-shrink-wordmark-lockup（已接线）",
+  "sourceFile": "sc-logo-shrink-wordmark-lockup.tsx",
+  "visual_intent": [
+   "cta"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.0,
+   "max": 4.8
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "BRAND"
+   ]
+  }
+ },
+ "sc-neon-triple-marquee": {
+  "slug": "sc-neon-triple-marquee",
+  "component": "NeonTripleMarquee",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 3
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:outro",
+  "desc": "shotcraft outro · neon-triple-marquee（已接线）",
+  "sourceFile": "sc-neon-triple-marquee.tsx",
+  "visual_intent": [
+   "cta"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-outro-group-photo-launch": {
+  "slug": "sc-outro-group-photo-launch",
+  "component": "OutroGroupPhotoLaunch",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 1,
+   "TEXT": 1,
+   "TEXT2": 1
+  },
+  "durationInFrames": 145,
+  "category3": "narrative",
+  "category": "sc:outro",
+  "desc": "shotcraft outro · outro-group-photo-launch（已接线）",
+  "sourceFile": "sc-outro-group-photo-launch.tsx",
+  "visual_intent": [
+   "cta"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.3,
+   "max": 5.3
+  },
+  "slotDefaults": {
+   "TEXT3": [
+    "AI Foundation Lab"
+   ],
+   "TEXT": [
+    "ui-serif, Georgia, \"Times New Roman\", serif"
+   ],
+   "TEXT2": [
+    "ui-monospace, SFMono-Regular, Menlo, monospace"
+   ]
+  }
+ },
+ "sc-ui-strip-away-outro": {
+  "slug": "sc-ui-strip-away-outro",
+  "component": "UiStripAwayOutro",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "SLOTS": 1
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:outro",
+  "desc": "shotcraft outro · ui-strip-away-outro · 矩形槽位可填",
+  "sourceFile": "sc-ui-strip-away-outro.tsx",
+  "visual_intent": [
+   "cta",
+   "ui",
+   "character"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-ui-to-brand-morph": {
+  "slug": "sc-ui-to-brand-morph",
+  "component": "InputMorphsIntoLogo",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 150,
+  "category3": "visual",
+  "category": "sc:outro",
+  "desc": "shotcraft outro · ui-to-brand-morph（已接线）",
+  "sourceFile": "sc-ui-to-brand-morph.tsx",
+  "visual_intent": [
+   "cta",
+   "transition",
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "Ready, set, go!"
+   ]
+  }
+ },
+ "ip-emote": {
+  "slug": "ip-emote",
+  "component": "IpEmote",
+  "tier": "injectable",
+  "contentKeys": {
+   "TEXT": true,
+   "CONFIG": true
+  },
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 90,
+  "category3": "narrative",
+  "desc": "A-roll 表情层 —— IP 形象/火柴人表情特写（疑问/思考/开心），素材路径可换（已接线）",
+  "sourceFile": "ip-emote.tsx",
+  "visual_intent": [
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.7,
+   "max": 3.3
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "疑问"
+   ]
+  }
+ },
+ "sc-card-flip-reveal": {
+  "slug": "sc-card-flip-reveal",
+  "component": "CardFlipReveal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 3
+  },
+  "durationInFrames": 110,
+  "category3": "visual",
+  "category": "sc:transition",
+  "desc": "shotcraft transition · card-flip-reveal（已接线） · 矩形槽位可填",
+  "sourceFile": "sc-card-flip-reveal.tsx",
+  "visual_intent": [
+   "transition",
+   "character"
+  ],
+  "content_types": [
+   "text",
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-cursor-flyover": {
+  "slug": "sc-cursor-flyover",
+  "component": "CursorFlyover",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 5
+  },
+  "durationInFrames": 180,
+  "category3": "visual",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · cursor-flyover（已接线）",
+  "sourceFile": "sc-cursor-flyover.tsx",
+  "visual_intent": [
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-terminal-3d": {
+  "slug": "sc-terminal-3d",
+  "component": "Terminal3D",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4
+  },
+  "durationInFrames": 180,
+  "category3": "visual",
+  "category": "sc:camera",
+  "desc": "shotcraft camera · terminal-3d（已接线）",
+  "sourceFile": "sc-terminal-3d.tsx",
+  "visual_intent": [
+   "scene",
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.4,
+   "max": 6.6
+  }
+ },
+ "sc-icon-field-colorize": {
+  "slug": "sc-icon-field-colorize",
+  "component": "IconFieldColorize",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4
+  },
+  "durationInFrames": 110,
+  "category3": "narrative",
+  "category": "sc:opening",
+  "desc": "shotcraft opening · icon-field-colorize（已接线）",
+  "sourceFile": "sc-icon-field-colorize.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-avatar-bracket-carousel": {
+  "slug": "sc-avatar-bracket-carousel",
+  "component": "AvatarBracketCarousel",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4
+  },
+  "durationInFrames": 156,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · avatar-bracket-carousel（已接线）",
+  "sourceFile": "sc-avatar-bracket-carousel.tsx",
+  "visual_intent": [
+   "ui",
+   "quote",
+   "character"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.7,
+   "max": 5.7
+  }
+ },
+ "sc-card-stack": {
+  "slug": "sc-card-stack",
+  "component": "CardStack",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 8
+  },
+  "durationInFrames": 126,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · card-stack（已接线）",
+  "sourceFile": "sc-card-stack.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.8,
+   "max": 4.6
+  }
+ },
+ "sc-carousel-3d": {
+  "slug": "sc-carousel-3d",
+  "component": "Carousel3D",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 8
+  },
+  "durationInFrames": 168,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · carousel-3d（已接线）",
+  "sourceFile": "sc-carousel-3d.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.0,
+   "max": 6.2
+  }
+ },
+ "sc-clipcard-looping": {
+  "slug": "sc-clipcard-looping",
+  "component": "ClipCardLooping",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 1
+  },
+  "durationInFrames": 120,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · clipcard-looping（已接线）",
+  "sourceFile": "sc-clipcard-looping.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.6,
+   "max": 4.4
+  },
+  "slotDefaults": {
+   "TEXT": [
+    "clips/clipcard-demo.mp4"
+   ]
+  }
+ },
+ "sc-list-reveal": {
+  "slug": "sc-list-reveal",
+  "component": "ListReveal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 6
+  },
+  "durationInFrames": 108,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · list-reveal（已接线）",
+  "sourceFile": "sc-list-reveal.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.2,
+   "max": 4.0
+  }
+ },
+ "sc-list-stack-press": {
+  "slug": "sc-list-stack-press",
+  "component": "ListStackPress",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 5
+  },
+  "durationInFrames": 88,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · list-stack-press（已接线）",
+  "sourceFile": "sc-list-stack-press.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 2.6,
+   "max": 3.2
+  }
+ },
+ "sc-neon-frame-forerun": {
+  "slug": "sc-neon-frame-forerun",
+  "component": "NeonFrameForerun",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 7
+  },
+  "durationInFrames": 110,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · neon-frame-forerun（已接线）",
+  "sourceFile": "sc-neon-frame-forerun.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-neon-frame-orbit-drop": {
+  "slug": "sc-neon-frame-orbit-drop",
+  "component": "NeonFrameForerunOrbit",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 7
+  },
+  "durationInFrames": 110,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · neon-frame-orbit-drop（已接线）",
+  "sourceFile": "sc-neon-frame-orbit-drop.tsx",
+  "visual_intent": [
+   "ui",
+   "scene"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-skeleton-reveal": {
+  "slug": "sc-skeleton-reveal",
+  "component": "SkeletonReveal",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4,
+   "TEXT2": 4
+  },
+  "durationInFrames": 110,
+  "category3": "visual",
+  "category": "sc:ui-entrance",
+  "desc": "shotcraft ui-entrance · skeleton-reveal（已接线）",
+  "sourceFile": "sc-skeleton-reveal.tsx",
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-glitch-cycle": {
+  "slug": "sc-glitch-cycle",
+  "component": "GlitchCycle",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4
+  },
+  "durationInFrames": 168,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · glitch-cycle（已接线）",
+  "sourceFile": "sc-glitch-cycle.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.0,
+   "max": 6.2
+  }
+ },
+ "sc-vertical-word-roll-blur-cycle": {
+  "slug": "sc-vertical-word-roll-blur-cycle",
+  "component": "VerticalWordRollBlurCycle",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4
+  },
+  "durationInFrames": 150,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · vertical-word-roll-blur-cycle（已接线）",
+  "sourceFile": "sc-vertical-word-roll-blur-cycle.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 4.5,
+   "max": 5.5
+  }
+ },
+ "sc-word-relay-filmstrip": {
+  "slug": "sc-word-relay-filmstrip",
+  "component": "WordRelayFilmstrip",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 3
+  },
+  "durationInFrames": 110,
+  "category3": "narrative",
+  "category": "sc:typography",
+  "desc": "shotcraft typography · word-relay-filmstrip（已接线）",
+  "sourceFile": "sc-word-relay-filmstrip.tsx",
+  "visual_intent": [
+   "emphasis"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-beat-step-list-theme-cycle": {
+  "slug": "sc-beat-step-list-theme-cycle",
+  "component": "BeatStepListThemeCycle",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 5
+  },
+  "durationInFrames": 110,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · beat-step-list-theme-cycle（已接线）",
+  "sourceFile": "sc-beat-step-list-theme-cycle.tsx",
+  "visual_intent": [
+   "process",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-quad-split-parallel-scenes": {
+  "slug": "sc-quad-split-parallel-scenes",
+  "component": "QuadSplitParallelScenes",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT3": 6,
+   "TEXT": 4,
+   "TEXT2": 3
+  },
+  "durationInFrames": 63,
+  "category3": "narrative",
+  "category": "sc:rhythm",
+  "desc": "shotcraft rhythm · quad-split-parallel-scenes（已接线）",
+  "sourceFile": "sc-quad-split-parallel-scenes.tsx",
+  "visual_intent": [
+   "process"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 1.9,
+   "max": 2.3
+  }
+ },
+ "sc-radial-ripple-phone-chips": {
+  "slug": "sc-radial-ripple-phone-chips",
+  "component": "RadialRipplePhoneChips",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 4
+  },
+  "durationInFrames": 168,
+  "category3": "visual",
+  "category": "sc:effects",
+  "desc": "shotcraft effects · radial-ripple-phone-chips（已接线）",
+  "sourceFile": "sc-radial-ripple-phone-chips.tsx",
+  "visual_intent": [
+   "emphasis",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.0,
+   "max": 6.2
+  }
+ },
+ "sc-avatar-grid-radial-build-colorize": {
+  "slug": "sc-avatar-grid-radial-build-colorize",
+  "component": "AvatarGridRadialBuildColorize",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 8
+  },
+  "durationInFrames": 168,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · avatar-grid-radial-build-colorize（已接线）",
+  "sourceFile": "sc-avatar-grid-radial-build-colorize.tsx",
+  "visual_intent": [
+   "data",
+   "character",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 5.0,
+   "max": 6.2
+  }
+ },
+ "sc-counter-confetti": {
+  "slug": "sc-counter-confetti",
+  "component": "CounterConfetti",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 8
+  },
+  "durationInFrames": 138,
+  "category3": "narrative",
+  "category": "sc:data",
+  "desc": "shotcraft data · counter-confetti（已接线）",
+  "sourceFile": "sc-counter-confetti.tsx",
+  "visual_intent": [
+   "data"
+  ],
+  "content_types": [
+   "text",
+   "number"
+  ],
+  "energy": "high",
+  "duration_sec": {
+   "min": 4.1,
+   "max": 5.1
+  }
+ },
+ "sc-ai-stream-response": {
+  "slug": "sc-ai-stream-response",
+  "component": "StreamResponse",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {},
+  "durationInFrames": 110,
+  "category3": "visual",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · ai-stream-response（已接线）",
+  "sourceFile": "sc-ai-stream-response.tsx",
+  "images": [
+   "image_1"
+  ],
+  "visual_intent": [
+   "ui"
+  ],
+  "content_types": [
+   "image"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.3,
+   "max": 4.0
+  }
+ },
+ "sc-picker-carousel-feature-cycle": {
+  "slug": "sc-picker-carousel-feature-cycle",
+  "component": "PickerCarouselFeatureCycle",
+  "tier": "injectable",
+  "contentKeys": {},
+  "arities": {
+   "TEXT": 8,
+   "TEXT2": 7
+  },
+  "durationInFrames": 108,
+  "category3": "visual",
+  "category": "sc:interaction",
+  "desc": "shotcraft interaction · picker-carousel-feature-cycle（已接线）",
+  "sourceFile": "sc-picker-carousel-feature-cycle.tsx",
+  "visual_intent": [
+   "ui",
+   "list"
+  ],
+  "content_types": [
+   "text"
+  ],
+  "energy": "medium",
+  "duration_sec": {
+   "min": 3.2,
+   "max": 4.0
+  }
+ }
+}

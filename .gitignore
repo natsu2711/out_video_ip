@@ -1,0 +1,62 @@
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Node / Remotion ----
+node_modules/
+.remotion/
+.cache/
+*.tsbuildinfo
+
+# ---- jobs: 生成的任务产物（视频/音频/中间文件），只保留 md 说明 ----
+jobs/*
+!jobs/*.md
+
+# ---- studio 运行产物 ----
+studio/server/__pycache__/
+studio/server/logs/
+studio/server/preview/
+studio/web/dist/
+
+# ---- 媒体与构建产物 ----
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.mp3
+*.wav
+*.aac
+*.m4a
+*.wav
+*.flac
+*.tts
+*.srt
+out/
+output/
+build/
+dist/
+
+# ---- 大素材缓存 ----
+assets/distill/
+*.pckl
+*.pickle
+*.cache
+
+# ---- 环境变量 / 密钥 ----
+.env
+.env.*
+*.key
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23ff4b1f'/%3E%3Cpath d='M9 21V11h4.2c2 0 3.3 1.2 3.3 3s-1.3 3-3.3 3H11.6v4H9zm2.6-5.9h1.4c.8 0 1.3-.4 1.3-1.1s-.5-1.1-1.3-1.1h-1.4v2.2zM18.5 21V11H21l2.5 4.6L26 11h2.5v10h-2.3v-5.8L23.7 19h-.7l-2.2-3.8V21h-2.3z' fill='%23fff' transform='scale(0.82) translate(3 3)'/%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Studio · out_video-ip 可视化工作台</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // 启动期崩溃可见化（React 挂载前的错误不会进 UI）
+      window.__bootErrors = [];
+      window.addEventListener('error', (e) => {
+        window.__bootErrors.push(String(e.error?.stack || e.message));
+        document.title = '⚠ ' + (e.message || 'error');
+      });
+      window.addEventListener('unhandledrejection', (e) => {
+        window.__bootErrors.push(String(e.reason?.stack || e.reason));
+        document.title = '⚠ promise ' + (e.reason?.message || 'rejection');
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

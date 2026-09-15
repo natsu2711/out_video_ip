@@ -1,0 +1,917 @@
+{
+ "cards": [
+  {
+   "slug": "basic-3d-scene",
+   "category": "camera",
+   "title": "basic-3d-scene",
+   "essence": "name: basic-3d-scene"
+  },
+  {
+   "slug": "crash-zoom-punch",
+   "category": "camera",
+   "title": "crash-zoom-punch",
+   "essence": "name: crash-zoom-punch"
+  },
+  {
+   "slug": "cursor-flyover",
+   "category": "camera",
+   "title": "cursor-flyover",
+   "essence": "name: cursor-flyover"
+  },
+  {
+   "slug": "depth-layer-moves",
+   "category": "camera",
+   "title": "depth-layer-moves",
+   "essence": "name: depth-layer-moves"
+  },
+  {
+   "slug": "graze-face-tour",
+   "category": "camera",
+   "title": "graze-face-tour",
+   "essence": "name: graze-face-tour"
+  },
+  {
+   "slug": "overhead-camera-moves",
+   "category": "camera",
+   "title": "overhead-camera-moves",
+   "essence": "name: overhead-camera-moves"
+  },
+  {
+   "slug": "space-camera-moves",
+   "category": "camera",
+   "title": "space-camera-moves",
+   "essence": "name: space-camera-moves"
+  },
+  {
+   "slug": "steep-tilt-glide",
+   "category": "camera",
+   "title": "steep-tilt-glide",
+   "essence": "name: steep-tilt-glide"
+  },
+  {
+   "slug": "tension-camera-moves",
+   "category": "camera",
+   "title": "tension-camera-moves",
+   "essence": "name: tension-camera-moves"
+  },
+  {
+   "slug": "terminal-3d",
+   "category": "camera",
+   "title": "terminal-3d",
+   "essence": "name: terminal-3d"
+  },
+  {
+   "slug": "avatar-grid-radial-build-colorize",
+   "category": "data",
+   "title": "avatar-grid-radial-build-colorize",
+   "essence": "name: avatar-grid-radial-build-colorize"
+  },
+  {
+   "slug": "before-after-slider-scrub",
+   "category": "data",
+   "title": "before-after-slider-scrub",
+   "essence": "name: before-after-slider-scrub"
+  },
+  {
+   "slug": "chart-live-moves",
+   "category": "data",
+   "title": "chart-live-moves",
+   "essence": "name: chart-live-moves"
+  },
+  {
+   "slug": "counter-confetti",
+   "category": "data",
+   "title": "counter-confetti",
+   "essence": "name: counter-confetti"
+  },
+  {
+   "slug": "gauge-readout-moves",
+   "category": "data",
+   "title": "gauge-readout-moves",
+   "essence": "name: gauge-readout-moves"
+  },
+  {
+   "slug": "hatch-depth",
+   "category": "data",
+   "title": "hatch-depth",
+   "essence": "name: hatch-depth"
+  },
+  {
+   "slug": "odometer-digit-roll",
+   "category": "data",
+   "title": "odometer-digit-roll",
+   "essence": "name: odometer-digit-roll"
+  },
+  {
+   "slug": "particle-celebrate-hits",
+   "category": "data",
+   "title": "particle-celebrate-hits",
+   "essence": "name: particle-celebrate-hits"
+  },
+  {
+   "slug": "particle-sand-fill",
+   "category": "data",
+   "title": "particle-sand-fill",
+   "essence": "name: particle-sand-fill"
+  },
+  {
+   "slug": "scroll-brake-moves",
+   "category": "data",
+   "title": "scroll-brake-moves",
+   "essence": "name: scroll-brake-moves"
+  },
+  {
+   "slug": "timeline-travel",
+   "category": "data",
+   "title": "timeline-travel",
+   "essence": "name: timeline-travel"
+  },
+  {
+   "slug": "assemble-then-type-flyin",
+   "category": "effects",
+   "title": "assemble-then-type-flyin",
+   "essence": "name: assemble-then-type-flyin"
+  },
+  {
+   "slug": "aurora-bloom-bg-flip",
+   "category": "effects",
+   "title": "aurora-bloom-bg-flip",
+   "essence": "name: aurora-bloom-bg-flip"
+  },
+  {
+   "slug": "brand-frame-snap",
+   "category": "effects",
+   "title": "brand-frame-snap",
+   "essence": "name: brand-frame-snap"
+  },
+  {
+   "slug": "dashboard-glow-highlight-pill",
+   "category": "effects",
+   "title": "dashboard-glow-highlight-pill",
+   "essence": "name: dashboard-glow-highlight-pill"
+  },
+  {
+   "slug": "fui-hud-moves",
+   "category": "effects",
+   "title": "fui-hud-moves",
+   "essence": "name: fui-hud-moves"
+  },
+  {
+   "slug": "glow-flyline-moves",
+   "category": "effects",
+   "title": "glow-flyline-moves",
+   "essence": "name: glow-flyline-moves"
+  },
+  {
+   "slug": "icon-performance-moves",
+   "category": "effects",
+   "title": "icon-performance-moves",
+   "essence": "name: icon-performance-moves"
+  },
+  {
+   "slug": "impact-feedback",
+   "category": "effects",
+   "title": "impact-feedback",
+   "essence": "name: impact-feedback"
+  },
+  {
+   "slug": "light-play-moves",
+   "category": "effects",
+   "title": "light-play-moves",
+   "essence": "name: light-play-moves"
+  },
+  {
+   "slug": "line-boil",
+   "category": "effects",
+   "title": "line-boil",
+   "essence": "一句话: 线条沸腾——hold 期间文字/描边轮廓每 3 帧轻微扭动一次，像手绘逐帧重描，静止画面保持\"活着\"的呼吸感"
+  },
+  {
+   "slug": "radial-ripple-phone-chips",
+   "category": "effects",
+   "title": "radial-ripple-phone-chips",
+   "essence": "name: radial-ripple-phone-chips"
+  },
+  {
+   "slug": "riso-print-hits",
+   "category": "effects",
+   "title": "riso-print-hits",
+   "essence": "name: riso-print-hits"
+  },
+  {
+   "slug": "scan-bracket-sweep",
+   "category": "effects",
+   "title": "scan-bracket-sweep",
+   "essence": "name: scan-bracket-sweep"
+  },
+  {
+   "slug": "scanline-annotate-focus",
+   "category": "effects",
+   "title": "scanline-annotate-focus",
+   "essence": "name: scanline-annotate-focus"
+  },
+  {
+   "slug": "scanline-assemble-flyin",
+   "category": "effects",
+   "title": "scanline-assemble-flyin",
+   "essence": "name: scanline-assemble-flyin"
+  },
+  {
+   "slug": "slam-entrance-moves",
+   "category": "effects",
+   "title": "slam-entrance-moves",
+   "essence": "name: slam-entrance-moves"
+  },
+  {
+   "slug": "spotlight-sweep-moves",
+   "category": "effects",
+   "title": "spotlight-sweep-moves",
+   "essence": "name: spotlight-sweep-moves"
+  },
+  {
+   "slug": "ai-stream-response",
+   "category": "interaction",
+   "title": "ai-stream-response",
+   "essence": "name: ai-stream-response"
+  },
+  {
+   "slug": "autolayout-gap-dial",
+   "category": "interaction",
+   "title": "autolayout-gap-dial",
+   "essence": "name: autolayout-gap-dial"
+  },
+  {
+   "slug": "canvas-materialize-moves",
+   "category": "interaction",
+   "title": "canvas-materialize-moves",
+   "essence": "name: canvas-materialize-moves"
+  },
+  {
+   "slug": "chip-grid-single-select-blackout",
+   "category": "interaction",
+   "title": "chip-grid-single-select-blackout",
+   "essence": "name: chip-grid-single-select-blackout"
+  },
+  {
+   "slug": "chip-lift-to-user-pill",
+   "category": "interaction",
+   "title": "chip-lift-to-user-pill",
+   "essence": "name: chip-lift-to-user-pill"
+  },
+  {
+   "slug": "collab-cursor-moves",
+   "category": "interaction",
+   "title": "collab-cursor-moves",
+   "essence": "name: collab-cursor-moves"
+  },
+  {
+   "slug": "command-palette-summon",
+   "category": "interaction",
+   "title": "command-palette-summon",
+   "essence": "name: command-palette-summon"
+  },
+  {
+   "slug": "glass-pill-dictation-typing",
+   "category": "interaction",
+   "title": "glass-pill-dictation-typing",
+   "essence": "name: glass-pill-dictation-typing"
+  },
+  {
+   "slug": "hashtag-to-pill-materialize",
+   "category": "interaction",
+   "title": "hashtag-to-pill-materialize",
+   "essence": "name: hashtag-to-pill-materialize"
+  },
+  {
+   "slug": "input-trigger-moves",
+   "category": "interaction",
+   "title": "input-trigger-moves",
+   "essence": "name: input-trigger-moves"
+  },
+  {
+   "slug": "picker-carousel-feature-cycle",
+   "category": "interaction",
+   "title": "picker-carousel-feature-cycle",
+   "essence": "name: picker-carousel-feature-cycle"
+  },
+  {
+   "slug": "segmented-thumb-hero",
+   "category": "interaction",
+   "title": "segmented-thumb-hero",
+   "essence": "name: segmented-thumb-hero"
+  },
+  {
+   "slug": "theme-switch-moves",
+   "category": "interaction",
+   "title": "theme-switch-moves",
+   "essence": "name: theme-switch-moves"
+  },
+  {
+   "slug": "type-and-filter",
+   "category": "interaction",
+   "title": "type-and-filter",
+   "essence": "name: type-and-filter"
+  },
+  {
+   "slug": "voice-waveform-live",
+   "category": "interaction",
+   "title": "voice-waveform-live",
+   "essence": "name: voice-waveform-live"
+  },
+  {
+   "slug": "brand-ink-open",
+   "category": "opening",
+   "title": "brand-ink-open",
+   "essence": "name: brand-ink-open"
+  },
+  {
+   "slug": "crane-rise-reveal",
+   "category": "opening",
+   "title": "crane-rise-reveal",
+   "essence": "name: crane-rise-reveal"
+  },
+  {
+   "slug": "dataviz-landscape-open",
+   "category": "opening",
+   "title": "dataviz-landscape-open",
+   "essence": "name: dataviz-landscape-open"
+  },
+  {
+   "slug": "fracture",
+   "category": "opening",
+   "title": "fracture",
+   "essence": "一句话: 5×5 瓦片从 3D 碎片态按中心波纹逐圈聚合成整面海报，停一拍亮字，随后全部碎片背离中心加速旋转飞出画面"
+  },
+  {
+   "slug": "icon-field-colorize",
+   "category": "opening",
+   "title": "icon-field-colorize",
+   "essence": "name: icon-field-colorize"
+  },
+  {
+   "slug": "letterspace-materialize",
+   "category": "opening",
+   "title": "letterspace-materialize",
+   "essence": "name: letterspace-materialize"
+  },
+  {
+   "slug": "magician-card-flourish",
+   "category": "opening",
+   "title": "magician-card-flourish",
+   "essence": "name: magician-card-flourish"
+  },
+  {
+   "slug": "spotlight-hero-card",
+   "category": "opening",
+   "title": "spotlight-hero-card",
+   "essence": "name: spotlight-hero-card"
+  },
+  {
+   "slug": "stroke-segment-build",
+   "category": "opening",
+   "title": "stroke-segment-build",
+   "essence": "name: stroke-segment-build"
+  },
+  {
+   "slug": "text-as-mask",
+   "category": "opening",
+   "title": "text-as-mask",
+   "essence": "name: text-as-mask"
+  },
+  {
+   "slug": "edit-hook-moves",
+   "category": "outro",
+   "title": "edit-hook-moves",
+   "essence": "name: edit-hook-moves"
+  },
+  {
+   "slug": "grain-dissolve",
+   "category": "outro",
+   "title": "grain-dissolve",
+   "essence": "name: grain-dissolve"
+  },
+  {
+   "slug": "logo-shrink-wordmark-lockup",
+   "category": "outro",
+   "title": "logo-shrink-wordmark-lockup",
+   "essence": "name: logo-shrink-wordmark-lockup"
+  },
+  {
+   "slug": "neon-triple-marquee",
+   "category": "outro",
+   "title": "neon-triple-marquee",
+   "essence": "name: neon-triple-marquee"
+  },
+  {
+   "slug": "outro-group-photo-launch",
+   "category": "outro",
+   "title": "outro-group-photo-launch",
+   "essence": "name: outro-group-photo-launch"
+  },
+  {
+   "slug": "ui-strip-away-outro",
+   "category": "outro",
+   "title": "ui-strip-away-outro",
+   "essence": "name: ui-strip-away-outro"
+  },
+  {
+   "slug": "ui-to-brand-morph",
+   "category": "outro",
+   "title": "ui-to-brand-morph",
+   "essence": "name: ui-to-brand-morph"
+  },
+  {
+   "slug": "beat-cut-moves",
+   "category": "rhythm",
+   "title": "beat-cut-moves",
+   "essence": "name: beat-cut-moves"
+  },
+  {
+   "slug": "beat-step-list-theme-cycle",
+   "category": "rhythm",
+   "title": "beat-step-list-theme-cycle",
+   "essence": "name: beat-step-list-theme-cycle"
+  },
+  {
+   "slug": "montage-rhythm-moves",
+   "category": "rhythm",
+   "title": "montage-rhythm-moves",
+   "essence": "name: montage-rhythm-moves"
+  },
+  {
+   "slug": "panel-grid-moves",
+   "category": "rhythm",
+   "title": "panel-grid-moves",
+   "essence": "name: panel-grid-moves"
+  },
+  {
+   "slug": "quad-split-parallel-scenes",
+   "category": "rhythm",
+   "title": "quad-split-parallel-scenes",
+   "essence": "name: quad-split-parallel-scenes"
+  },
+  {
+   "slug": "rhythm-interrupt-moves",
+   "category": "rhythm",
+   "title": "rhythm-interrupt-moves",
+   "essence": "name: rhythm-interrupt-moves"
+  },
+  {
+   "slug": "sakuga-timing-shift",
+   "category": "rhythm",
+   "title": "sakuga-timing-shift",
+   "essence": "name: sakuga-timing-shift"
+  },
+  {
+   "slug": "smear-multiples",
+   "category": "rhythm",
+   "title": "smear-multiples",
+   "essence": "name: smear-multiples"
+  },
+  {
+   "slug": "spectrum-morph-ui",
+   "category": "rhythm",
+   "title": "spectrum-morph-ui",
+   "essence": "name: spectrum-morph-ui"
+  },
+  {
+   "slug": "speed-ramp-freeze",
+   "category": "rhythm",
+   "title": "speed-ramp-freeze",
+   "essence": "name: speed-ramp-freeze"
+  },
+  {
+   "slug": "trailer-grammar-moves",
+   "category": "rhythm",
+   "title": "trailer-grammar-moves",
+   "essence": "name: trailer-grammar-moves"
+  },
+  {
+   "slug": "bottom-push-stack-wipe",
+   "category": "transition",
+   "title": "bottom-push-stack-wipe",
+   "essence": "name: bottom-push-stack-wipe"
+  },
+  {
+   "slug": "bubble-swarm-takeover",
+   "category": "transition",
+   "title": "bubble-swarm-takeover",
+   "essence": "name: bubble-swarm-takeover"
+  },
+  {
+   "slug": "card-flip-reveal",
+   "category": "transition",
+   "title": "card-flip-reveal",
+   "essence": "name: card-flip-reveal"
+  },
+  {
+   "slug": "card-flock-tumble",
+   "category": "transition",
+   "title": "card-flock-tumble",
+   "essence": "name: card-flock-tumble"
+  },
+  {
+   "slug": "circle-match-iris",
+   "category": "transition",
+   "title": "circle-match-iris",
+   "essence": "name: circle-match-iris"
+  },
+  {
+   "slug": "color-block-step-wipe",
+   "category": "transition",
+   "title": "color-block-step-wipe",
+   "essence": "name: color-block-step-wipe"
+  },
+  {
+   "slug": "cube-navigation",
+   "category": "transition",
+   "title": "cube-navigation",
+   "essence": "name: cube-navigation"
+  },
+  {
+   "slug": "gradient-transition",
+   "category": "transition",
+   "title": "gradient-transition",
+   "essence": "name: gradient-transition"
+  },
+  {
+   "slug": "line-carry-transition",
+   "category": "transition",
+   "title": "line-carry-transition",
+   "essence": "name: line-carry-transition"
+  },
+  {
+   "slug": "mosaic-reframe",
+   "category": "transition",
+   "title": "mosaic-reframe",
+   "essence": "name: mosaic-reframe"
+  },
+  {
+   "slug": "page-turn-transitions",
+   "category": "transition",
+   "title": "page-turn-transitions",
+   "essence": "name: page-turn-transitions"
+  },
+  {
+   "slug": "paper-plane-messenger",
+   "category": "transition",
+   "title": "paper-plane-messenger",
+   "essence": "name: paper-plane-messenger"
+  },
+  {
+   "slug": "print-texture-transitions",
+   "category": "transition",
+   "title": "print-texture-transitions",
+   "essence": "name: print-texture-transitions"
+  },
+  {
+   "slug": "shot-transitions",
+   "category": "transition",
+   "title": "shot-transitions",
+   "essence": "name: shot-transitions"
+  },
+  {
+   "slug": "tear-streak-transitions",
+   "category": "transition",
+   "title": "tear-streak-transitions",
+   "essence": "name: tear-streak-transitions"
+  },
+  {
+   "slug": "transition-hidden-cut",
+   "category": "transition",
+   "title": "transition-hidden-cut",
+   "essence": "name: transition-hidden-cut"
+  },
+  {
+   "slug": "transition-travel",
+   "category": "transition",
+   "title": "transition-travel",
+   "essence": "name: transition-travel"
+  },
+  {
+   "slug": "white-flash-logo-simplify-cut",
+   "category": "transition",
+   "title": "white-flash-logo-simplify-cut",
+   "essence": "name: white-flash-logo-simplify-cut"
+  },
+  {
+   "slug": "wipe-transitions",
+   "category": "transition",
+   "title": "wipe-transitions",
+   "essence": "name: wipe-transitions"
+  },
+  {
+   "slug": "blur-slide",
+   "category": "typography",
+   "title": "blur-slide",
+   "essence": "name: blur-slide"
+  },
+  {
+   "slug": "brace-expand",
+   "category": "typography",
+   "title": "brace-expand",
+   "essence": "name: brace-expand"
+  },
+  {
+   "slug": "cel-flash-stomp",
+   "category": "typography",
+   "title": "cel-flash-stomp",
+   "essence": "name: cel-flash-stomp"
+  },
+  {
+   "slug": "countdown-arc-scatter",
+   "category": "typography",
+   "title": "countdown-arc-scatter",
+   "essence": "name: countdown-arc-scatter"
+  },
+  {
+   "slug": "document-typewriter-reveal",
+   "category": "typography",
+   "title": "document-typewriter-reveal",
+   "essence": "name: document-typewriter-reveal"
+  },
+  {
+   "slug": "flying-words",
+   "category": "typography",
+   "title": "flying-words",
+   "essence": "name: flying-words"
+  },
+  {
+   "slug": "glitch-cycle",
+   "category": "typography",
+   "title": "glitch-cycle",
+   "essence": "name: glitch-cycle"
+  },
+  {
+   "slug": "gradient-word-sweep",
+   "category": "typography",
+   "title": "gradient-word-sweep",
+   "essence": "name: gradient-word-sweep"
+  },
+  {
+   "slug": "marker-underline-title",
+   "category": "typography",
+   "title": "marker-underline-title",
+   "essence": "name: marker-underline-title"
+  },
+  {
+   "slug": "outline-word-fill",
+   "category": "typography",
+   "title": "outline-word-fill",
+   "essence": "name: outline-word-fill"
+  },
+  {
+   "slug": "paper-title-card",
+   "category": "typography",
+   "title": "paper-title-card",
+   "essence": "name: paper-title-card"
+  },
+  {
+   "slug": "pill-chip-slot-cycle-handled",
+   "category": "typography",
+   "title": "pill-chip-slot-cycle-handled",
+   "essence": "name: pill-chip-slot-cycle-handled"
+  },
+  {
+   "slug": "pill-slot-cycle",
+   "category": "typography",
+   "title": "pill-slot-cycle",
+   "essence": "name: pill-slot-cycle"
+  },
+  {
+   "slug": "scramble",
+   "category": "typography",
+   "title": "scramble",
+   "essence": "一句话: 等宽整行字符先每 2 帧高速跳乱码，再从左到右逐个锁定为真字，锁定瞬间蓝白高光闪一下——种子驱动可复现的解密感"
+  },
+  {
+   "slug": "split-flap-title",
+   "category": "typography",
+   "title": "split-flap-title",
+   "essence": "name: split-flap-title"
+  },
+  {
+   "slug": "text-column-converge",
+   "category": "typography",
+   "title": "text-column-converge",
+   "essence": "name: text-column-converge"
+  },
+  {
+   "slug": "title-demote-to-label",
+   "category": "typography",
+   "title": "title-demote-to-label",
+   "essence": "name: title-demote-to-label"
+  },
+  {
+   "slug": "type-assembly-moves",
+   "category": "typography",
+   "title": "type-assembly-moves",
+   "essence": "name: type-assembly-moves"
+  },
+  {
+   "slug": "type-entrance-moves",
+   "category": "typography",
+   "title": "type-entrance-moves",
+   "essence": "name: type-entrance-moves"
+  },
+  {
+   "slug": "type-rhythm-sync",
+   "category": "typography",
+   "title": "type-rhythm-sync",
+   "essence": "name: type-rhythm-sync"
+  },
+  {
+   "slug": "typewriter-moves",
+   "category": "typography",
+   "title": "typewriter-moves",
+   "essence": "name: typewriter-moves"
+  },
+  {
+   "slug": "typing-code-block",
+   "category": "typography",
+   "title": "typing-code-block",
+   "essence": "name: typing-code-block"
+  },
+  {
+   "slug": "vertical-word-roll-blur-cycle",
+   "category": "typography",
+   "title": "vertical-word-roll-blur-cycle",
+   "essence": "name: vertical-word-roll-blur-cycle"
+  },
+  {
+   "slug": "word-relay-filmstrip",
+   "category": "typography",
+   "title": "word-relay-filmstrip",
+   "essence": "name: word-relay-filmstrip"
+  },
+  {
+   "slug": "word-relay-geometry",
+   "category": "typography",
+   "title": "word-relay-geometry",
+   "essence": "name: word-relay-geometry"
+  },
+  {
+   "slug": "avatar-bracket-carousel",
+   "category": "ui-entrance",
+   "title": "avatar-bracket-carousel",
+   "essence": "name: avatar-bracket-carousel"
+  },
+  {
+   "slug": "bezier-source-converge-merge",
+   "category": "ui-entrance",
+   "title": "bezier-source-converge-merge",
+   "essence": "name: bezier-source-converge-merge"
+  },
+  {
+   "slug": "card-stack",
+   "category": "ui-entrance",
+   "title": "card-stack",
+   "essence": "name: card-stack"
+  },
+  {
+   "slug": "carousel-3d",
+   "category": "ui-entrance",
+   "title": "carousel-3d",
+   "essence": "name: carousel-3d"
+  },
+  {
+   "slug": "cloner-depth-echo",
+   "category": "ui-entrance",
+   "title": "cloner-depth-echo",
+   "essence": "name: cloner-depth-echo"
+  },
+  {
+   "slug": "deck-deal-flyin",
+   "category": "ui-entrance",
+   "title": "deck-deal-flyin",
+   "essence": "name: deck-deal-flyin"
+  },
+  {
+   "slug": "doc-park-left-pill-deal",
+   "category": "ui-entrance",
+   "title": "doc-park-left-pill-deal",
+   "essence": "name: doc-park-left-pill-deal"
+  },
+  {
+   "slug": "draw-svg-trace",
+   "category": "ui-entrance",
+   "title": "draw-svg-trace",
+   "essence": "name: draw-svg-trace"
+  },
+  {
+   "slug": "element-body-moves",
+   "category": "ui-entrance",
+   "title": "element-body-moves",
+   "essence": "name: element-body-moves"
+  },
+  {
+   "slug": "floating-glossy-label-pills",
+   "category": "ui-entrance",
+   "title": "floating-glossy-label-pills",
+   "essence": "name: floating-glossy-label-pills"
+  },
+  {
+   "slug": "integration-hub-map",
+   "category": "ui-entrance",
+   "title": "integration-hub-map",
+   "essence": "name: integration-hub-map"
+  },
+  {
+   "slug": "list-reveal",
+   "category": "ui-entrance",
+   "title": "list-reveal",
+   "essence": "name: list-reveal"
+  },
+  {
+   "slug": "list-stack-press",
+   "category": "ui-entrance",
+   "title": "list-stack-press",
+   "essence": "name: list-stack-press"
+  },
+  {
+   "slug": "morph-from-primitive",
+   "category": "ui-entrance",
+   "title": "morph-from-primitive",
+   "essence": "name: morph-from-primitive"
+  },
+  {
+   "slug": "neon-frame-forerun",
+   "category": "ui-entrance",
+   "title": "neon-frame-forerun",
+   "essence": "name: neon-frame-forerun"
+  },
+  {
+   "slug": "neon-frame-orbit-drop",
+   "category": "ui-entrance",
+   "title": "neon-frame-orbit-drop",
+   "essence": "name: neon-frame-orbit-drop"
+  },
+  {
+   "slug": "page-waterfall-wall",
+   "category": "ui-entrance",
+   "title": "page-waterfall-wall",
+   "essence": "name: page-waterfall-wall"
+  },
+  {
+   "slug": "paper-craft-moves",
+   "category": "ui-entrance",
+   "title": "paper-craft-moves",
+   "essence": "name: paper-craft-moves"
+  },
+  {
+   "slug": "product-card-progressive-assemble",
+   "category": "ui-entrance",
+   "title": "product-card-progressive-assemble",
+   "essence": "name: product-card-progressive-assemble"
+  },
+  {
+   "slug": "radial-wave",
+   "category": "ui-entrance",
+   "title": "radial-wave",
+   "essence": "name: radial-wave"
+  },
+  {
+   "slug": "research-card-stack-scroll",
+   "category": "ui-entrance",
+   "title": "research-card-stack-scroll",
+   "essence": "name: research-card-stack-scroll"
+  },
+  {
+   "slug": "row-embed",
+   "category": "ui-entrance",
+   "title": "row-embed",
+   "essence": "一句话: 内容行像卡片一样从空中降下、rotateX 收平、嵌入瞬间底边亮一道强调色的缝"
+  },
+  {
+   "slug": "runway-ground-skim",
+   "category": "ui-entrance",
+   "title": "runway-ground-skim",
+   "essence": "name: runway-ground-skim"
+  },
+  {
+   "slug": "skeleton-reveal",
+   "category": "ui-entrance",
+   "title": "skeleton-reveal",
+   "essence": "name: skeleton-reveal"
+  },
+  {
+   "slug": "svg-shape-morph",
+   "category": "ui-entrance",
+   "title": "svg-shape-morph",
+   "essence": "name: svg-shape-morph"
+  },
+  {
+   "slug": "value-stagger-gradient",
+   "category": "ui-entrance",
+   "title": "value-stagger-gradient",
+   "essence": "name: value-stagger-gradient"
+  },
+  {
+   "slug": "wall-reveal-moves",
+   "category": "ui-entrance",
+   "title": "wall-reveal-moves",
+   "essence": "name: wall-reveal-moves"
+  }
+ ],
+ "count": 152
+}

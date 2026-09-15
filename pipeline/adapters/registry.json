@@ -1,0 +1,83 @@
+{
+ "archify": {
+  "name": "archify",
+  "capability": "chart_render",
+  "source_project": "/Users/bainazi/Documents/outtt/other/2other_pic/archify",
+  "absorb_method": "api",
+  "description": "架构/流程/时序/数据流/生命周期图渲染（JSON IR → HTML → PNG，确定性布局）",
+  "available": true,
+  "available_msg": "node + archify.mjs"
+ },
+ "hand-drawn-styles": {
+  "name": "hand-drawn-styles",
+  "capability": "image_prompt",
+  "source_project": "/Users/bainazi/Documents/outtt/other/1other_video/hand-drawn-styles",
+  "absorb_method": "prompt_pack",
+  "description": "18 种手绘画风 prompt 配方（蜡笔/水墨/水彩/像素/北欧绘本…）",
+  "available": true,
+  "available_msg": "19 个画风配方"
+ },
+ "handraw-style-216": {
+  "name": "handraw-style-216",
+  "capability": "image_prompt",
+  "source_project": "/Users/bainazi/Documents/outtt/other/2other_pic/handraw-style",
+  "absorb_method": "prompt_pack",
+  "description": "216 种人物 IP 手绘画风（社论漫画/绘本/zine…每条含完整视觉描述+编号参考图）",
+  "available": true,
+  "available_msg": "216 个画风（含编号参考图）"
+ },
+ "ip-character": {
+  "name": "ip-character",
+  "capability": "image_prompt",
+  "source_project": "/Users/bainazi/Documents/outtt/other/2other_pic/ian-xiaohei-illustrations/ian-xiaohei-illustrations",
+  "absorb_method": "prompt_pack",
+  "description": "自有 IP 生图（黑发短发女孩·蓝色短袖T恤；水墨手绘固定风格；情绪/动作确定性映射）",
+  "available": true,
+  "available_msg": "IP 参考图 + 风格 DNA + intent→动作映射就绪"
+ },
+ "shotcraft-cards": {
+  "name": "shotcraft-cards",
+  "capability": "recipe_knowledge",
+  "source_project": "/Users/bainazi/Documents/outtt/other/1other_video/video-shotcraft/references",
+  "absorb_method": "prompt_pack",
+  "description": "152 张镜头方法论卡（camera/data/effects/interaction/opening/outro/rhythm 七类）",
+  "available": true,
+  "available_msg": "157 张知识卡"
+ },
+ "stock-footage": {
+  "name": "stock-footage",
+  "capability": "stock_footage",
+  "source_project": "/Users/bainazi/Documents/outtt/1other_video/MoneyPrinterTurbo",
+  "absorb_method": "api",
+  "description": "文案→匹配素材视频（Pexels/Pixabay 免费商用素材库搜索+下载）",
+  "available": false,
+  "available_msg": "缺 PEXELS_API_KEY / PIXABAY_API_KEY（免费申请；缺失时 S4C 降级为关键词任务单）"
+ },
+ "vox-collage": {
+  "name": "vox-collage",
+  "capability": "image_prompt",
+  "source_project": "/Users/bainazi/Documents/outtt/other/1other_video/vox-director",
+  "absorb_method": "prompt_pack",
+  "description": "Vox 纸片拼贴海报 prompt（撕纸/胶带/半调网点/大胆平涂底色/烧字标题，5 段式）",
+  "available": true,
+  "available_msg": "prompt 5 段式已内置（风格块+底色轴）"
+ },
+ "whiteboard-animator": {
+  "name": "whiteboard-animator",
+  "capability": "video_render",
+  "source_project": "/Users/bainazi/Documents/outtt/other/1other_video/whiteboard-animator",
+  "absorb_method": "api",
+  "description": "白板图→手绘动画视频：逐字书写/描边/笔刷填色（外部 CLI whiteboard-animate，CPU 本地）",
+  "available": true,
+  "available_msg": "/Users/bainazi/Documents/outtt/1out_video/out_video-ip/.venv/bin/whiteboard-animate"
+ },
+ "zine-poster": {
+  "name": "zine-poster",
+  "capability": "image_prompt",
+  "source_project": "/Users/bainazi/Documents/outtt/other/2other_pic/gc-minimal-zine-poster",
+  "absorb_method": "prompt_pack",
+  "description": "诗性纸感留白微编辑海报（70-90% 留白 + 单一视觉事件 + 一点高饱和点色）",
+  "available": true,
+  "available_msg": "固定系统+变量轴已内置（纸色/点色/构图位/情绪）"
+ }
+}

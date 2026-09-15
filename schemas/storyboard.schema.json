@@ -1,0 +1,243 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "storyboard",
+  "description": "视觉编排表。S3 生成，闸门1唯一允许人工修改的对象。",
+  "type": "object",
+  "required": [
+    "version",
+    "job_id",
+    "shots"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "job_id": {
+      "type": "string"
+    },
+    "rhythm_check": {
+      "type": "object",
+      "properties": {
+        "max_consecutive_same_roll": {
+          "type": "integer"
+        },
+        "a_b_ratio": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "time",
+          "vo",
+          "roll",
+          "intent",
+          "visual",
+          "motion",
+          "recipe_ref",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^S[0-9]{3}$"
+          },
+          "time": {
+            "type": "object",
+            "required": [
+              "start_ms",
+              "end_ms",
+              "seg_ids"
+            ],
+            "properties": {
+              "start_ms": {
+                "type": "integer"
+              },
+              "end_ms": {
+                "type": "integer"
+              },
+              "seg_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "vo": {
+            "type": "string",
+            "description": "覆盖的口播原文，不得改写"
+          },
+          "roll": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          },
+          "b_type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "real",
+              "graphic",
+              "text",
+              null
+            ]
+          },
+          "view_angle": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "host",
+              "protagonist",
+              "supporting",
+              "pov",
+              null
+            ]
+          },
+          "intent": {
+            "type": "string",
+            "description": "观众要理解的一句话"
+          },
+          "visual": {
+            "type": "string",
+            "description": "主体/构图/景别/关键元素/落幅"
+          },
+          "motion": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "按旁白顺序的内部动效节拍，可锚定字级时间"
+          },
+          "transition_in": {
+            "type": "string"
+          },
+          "recipe_ref": {
+            "type": "string",
+            "description": "配方短名 或 card:<talkcraft卡slug>（注册表 render-engine/src/cards/registry.json）",
+            "pattern": "^(KineticTitle|TitleCard|QuoteCard|ARollScene|StepsCard|TransformCard|ListGrid|EndingCard|card:[a-z0-9-]+)$"
+          },
+          "assets_needed": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "asset_ok",
+              "rendered",
+              "qa_pass",
+              "rejected"
+            ]
+          },
+          "overlay": {
+            "type": "array",
+            "maxItems": 2,
+            "items": {
+              "enum": [
+                "particles",
+                "light_sweep",
+                "grain",
+                "vignette",
+                "tint_warm",
+                "tint_cool",
+                "snow",
+                "embers"
+              ]
+            },
+            "description": "C-roll 正交叠层（≤2 层，氛围不抢主体）"
+          },
+          "presentation": {
+            "enum": [
+              "wipe_mask",
+              "rise_fade",
+              "slam_in",
+              "blur_focus",
+              "none"
+            ],
+            "description": "呈现层：内容入场语法（蒙版擦除/上升浮现/砸入/虚实聚焦），≤1 种"
+          },
+          "camera": {
+            "type": "object",
+            "properties": {
+              "dir": {
+                "enum": [
+                  "in",
+                  "out"
+                ]
+              }
+            },
+            "description": "镜头推拉方向覆盖（缺省按奇偶镜轮换）"
+          },
+          "config": {
+            "type": "object",
+            "description": "逐镜设计注入：卡的 TEXT/CONFIG、A-roll 场景元素与批注",
+            "properties": {
+              "TEXT": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "CONFIG": {
+                "type": "object"
+              },
+              "scene": {
+                "type": "string",
+                "enum": [
+                  "countdown",
+                  "pit",
+                  "sign",
+                  "stage"
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "sfx": {
+            "type": "array",
+            "description": "音效 cue：t_ms 为镜头内相对毫秒，name 对应 render-engine/public/sfx/<name>.mp3",
+            "items": {
+              "type": "object",
+              "required": [
+                "t_ms",
+                "name"
+              ],
+              "properties": {
+                "t_ms": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "name": {
+                  "type": "string"
+                },
+                "gain": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "source": "remotion-dev",
+   "path": "remotion-create/SKILL.md",
+   "kind": "file",
+   "as": "card_backlog",
+   "note": "",
+   "local": "assets/distill/remotion-dev/SKILL.md",
+   "ts": 1789189954
+  },
+  {
+   "source": "remotion-dev",
+   "path": "remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
+   "kind": "file",
+   "as": "card_backlog",
+   "note": "",
+   "local": "assets/distill/remotion-dev/CountryLabel.tsx",
+   "ts": 1789189954
+  },
+  {
+   "source": "overlay-studio",
+   "path": "src/effects/hud/hud.css",
+   "kind": "file",
+   "as": "card_backlog",
+   "note": "",
+   "local": "assets/distill/overlay-studio/hud.css",
+   "ts": 1789229917
+  },
+  {
+   "source": "overlay-studio",
+   "path": "src/effects/registry.ts",
+   "kind": "file",
+   "as": "card_backlog",
+   "note": "",
+   "local": "assets/distill/overlay-studio/registry.ts",
+   "ts": 1789234247
+  },
+  {
+   "source": "overlay-studio",
+   "path": "src/effects/hud/hud.css",
+   "kind": "file",
+   "as": "card_backlog",
+   "note": "",
+   "local": "assets/distill/overlay-studio/hud_1.css",
+   "ts": 1789298932
+  },
+  {
+   "source": "overlay-studio",
+   "path": "src/effects/hud/TermCard.tsx",
+   "kind": "file",
+   "as": "card_backlog",
+   "note": "",
+   "local": "assets/distill/overlay-studio/TermCard.tsx",
+   "ts": 1789298932
+  }
+ ]
+}

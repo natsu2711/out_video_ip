@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "assets",
+  "description": "素材清单：shot_id 与素材文件的映射 + 生成参数留痕",
+  "type": "object",
+  "required": ["version", "items"],
+  "properties": {
+    "version": { "type": "string" },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["shot_id", "kind", "file", "qa"],
+        "properties": {
+          "shot_id": { "type": "string" },
+          "kind": { "type": "string", "enum": ["a-roll-frame", "a-roll-layer", "b-roll-graphic", "b-roll-real", "illustration", "screenshot", "recording"] },
+          "file": { "type": "string" },
+          "gen_meta": {
+            "type": "object",
+            "properties": {
+              "engine": { "type": "string" },
+              "workflow": { "type": "string" },
+              "params_hash": { "type": "string" },
+              "ref_images": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "qa": {
+            "type": "object",
+            "required": ["visual_review"],
+            "properties": {
+              "visual_review": { "type": "string", "enum": ["pass", "fail", "pending"] },
+              "reviewer": { "type": "string" },
+              "ts": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

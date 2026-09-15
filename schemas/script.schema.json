@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "script",
+  "type": "object",
+  "required": ["version", "job_id", "source", "segments"],
+  "properties": {
+    "version": { "type": "string" },
+    "job_id": { "type": "string" },
+    "source": { "type": "string", "description": "原始文案文件相对路径" },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "hook": { "type": "string", "description": "开场钩子一句话" },
+        "closing": { "type": "string", "description": "收尾行动号召" },
+        "char_count": { "type": "integer" },
+        "est_duration_sec": { "type": "number" }
+      }
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "text"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^seg[0-9]{3}$" },
+          "text": { "type": "string", "minLength": 1, "description": "口播文本；数字一律汉字写法" },
+          "beat": { "type": "string", "description": "叙事节拍标签: hook/point/step/case/contrast/cta" },
+          "visual_hint": {
+            "type": "string",
+            "description": "画面潜力标记: scene(可画场景)/graphic(可图形化)/quote(金句)/real(需真实素材)"
+          }
+        }
+      }
+    }
+  }
+}
